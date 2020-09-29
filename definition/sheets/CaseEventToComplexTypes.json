@@ -127,5 +127,6 @@
   {"ID": "LitigationFriend", "CaseEventID": "createClaim", "CaseFieldID": "litigationFriend", "ListElementCode": "litigationAddress.PostTown", "EventElementLabel": "Town or City", "FieldDisplayOrder": 6, "DisplayContext": "OPTIONAL"},
   {"ID": "LitigationFriend", "CaseEventID": "createClaim", "CaseFieldID": "litigationFriend", "ListElementCode": "litigationAddress.County", "EventElementLabel": "County", "FieldDisplayOrder": 7, "DisplayContext": "OPTIONAL"},
   {"ID": "LitigationFriend", "CaseEventID": "createClaim", "CaseFieldID": "litigationFriend", "ListElementCode": "litigationAddress.Country", "EventElementLabel": "Country", "FieldDisplayOrder": 8, "DisplayContext": "OPTIONAL"},
-  {"ID": "LitigationFriend", "CaseEventID": "createClaim", "CaseFieldID": "litigationFriend", "ListElementCode": "litigationAddress.PostCode", "EventElementLabel": "Postcode", "FieldDisplayOrder": 9, "DisplayContext": "MANDATORY"}
+  {"ID": "LitigationFriend", "CaseEventID": "createClaim", "CaseFieldID": "litigationFriend", "ListElementCode": "litigationAddress.PostCode", "EventElementLabel": "Postcode", "FieldDisplayOrder": 9, "DisplayContext": "MANDATORY"},
+  {"ID": "LitigationFriend", "CaseEventID": "createClaim", "CaseFieldID": "litigationFriend", "ListElementCode": "litigationCertificates.documentLink", "EventElementLabel": "Upload the certificate of suitability", "FieldDisplayOrder": 10, "DisplayContext": "MANDATORY"}
 ]
