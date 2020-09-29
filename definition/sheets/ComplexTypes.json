@@ -127,6 +127,7 @@
   {"ID": "DQFastMulti", "ListElementCode": "signatureName", "FieldType": "Text", "ElementLabel": "Full name", "SecurityClassification": "Public"},
   {"ID": "DQFastMulti", "ListElementCode": "signatureRole", "FieldType": "Text", "ElementLabel": "Role", "SecurityClassification": "Public"},
   {"ID": "LitigationFriend", "ListElementCode": "litigationFriendName", "FieldType": "Text", "ElementLabel": "Full name", "SecurityClassification": "Public"},
-  {"ID": "LitigationFriend", "ListElementCode": "litigationAddressRequired", "FieldType": "YesOrNo", "ElementLabel": "Are the claimant address and litigation friend address the same?", "SecurityClassification": "Public"},
-  {"ID": "LitigationFriend", "ListElementCode": "litigationAddress", "FieldType": "AddressUK", "ElementLabel": "Litigation friend's address", "FieldShowCondition": "litigationAddressRequired=\"No\"", "SecurityClassification": "Public"}
+  {"ID": "LitigationFriend", "ListElementCode": "litigationAddressRequired", "FieldType": "YesOrNo", "ElementLabel": "Is the claimant address and litigation friend address the same?", "SecurityClassification": "Public"},
+  {"ID": "LitigationFriend", "ListElementCode": "litigationAddress", "FieldType": "AddressUK", "ElementLabel": "Litigation friend's address", "FieldShowCondition": "litigationAddressRequired=\"No\"", "SecurityClassification": "Public"},
+  {"ID": "LitigationFriend", "ListElementCode": "litigationCertificates", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "ElementLabel": "Upload the certificate of suitability", "SecurityClassification": "Public"}
 ]

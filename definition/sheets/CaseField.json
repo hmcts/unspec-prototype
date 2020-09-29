@@ -6,7 +6,7 @@
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
     "ID": "eligibilityQuestions",
-    "Label": "## Issue civil court proceedings \r\n\r\n### Who can use this service\r\n\r\nUse this service if you’re representing a claimant and:\r\n- issuing a claim for an unspecified (unfixed) amount of money\r\n- able to pay the full issue fee using fee account\r\n- serving the claim form yourself to a defendant who lives in the UK\r\n -serving a claim form in English\r\n- have an email and UK postal address \r\n\r\nYou can also use this service to: \r\n- Confirm service of the claim form and other supporting documents on the defendant\r\n- Provide a response to the defendant defence \r\n- Provide direction questionnaire information  \r\n\r\n### About the claimant \r\nThe claimant must\r\n- have a litigation friend if they are a child under 18 \r\n- have an address in England or Wales\r\n- not have a civil restraint, all or civil proceedings order against them \r\n\r\n### About the claim \r\nThe claim must not be against the crown or ordinarily follow the Part 8 procedure. \r\n",
+    "Label": "## Issue civil court proceedings \r\n\r\n### Who can use this service\r\n\r\nUse this service if you’re representing a claimant and:\r\n- issuing a claim for an unspecified (unfixed) amount of money\r\n- able to pay the full issue fee using fee account\r\n- serving the claim form yourself to a defendant who lives in the UK\r\n -serving a claim form in English\r\n- have an email and UK postal address \r\n\r\n### About the claimant \r\nThe claimant must\r\n- have a litigation friend if they are a child under 18 \r\n- have an address in England or Wales\r\n- not have a civil restraint, all or civil proceedings order against them \r\n\r\n### About the claim \r\nThe claim must not be against the crown or ordinarily follow the Part 8 procedure. \r\n",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -26,7 +26,7 @@
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeHeader2", "Label": "## Defendant's legal representative", "FieldType": "Label", "SecurityClassification": "Public"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeHeader3", "Label": "## Defendant's legal representative", "FieldType": "Label", "SecurityClassification": "Public"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeContactSearch", "Label": "This should be the representative's personal or work email address not a general email address.", "HintText": "This should be the email address of a person you discussed the claim with, not a group or company one.", "FieldType": "Email", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeWarning", "Label": "You can still issue the claim without their email address but the claim will then continue offline (by post).", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeWarning", "Label": "You can still issue the claim without their email address but the claim will then continue offline.", "FieldType": "Label", "SecurityClassification": "Public"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeConfirm", "Label": "Are these the correct details for the defendant's legal representative?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
   {
     "LiveFrom": "01/12/2019",
@@ -48,7 +48,7 @@
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
     "ID": "claimDetailsIntro",
-    "Label": "\r\nDon't include the full particulars of claim here  - you have the option to upload them on the next page.\r\n\r\nPlease use this space to provide additional details such as the date of accident if personal injury, the date of the alleged negligence if clinical negligence case , the date of the contract if breach of contract etc.",
+    "Label": "\r\nDon't include the full particulars of claim here  - you have the option to upload them on the next page.\r\n\r\nPlease use this space to provide additional details such as the date of accident if personal injury, the date of the alleged negligence if clinical negligence case , the date of the contract if breach of contract and add any other supporting details.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -102,7 +102,7 @@
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "docsServedOthers", "Label": "List them here:", "FieldType": "TextArea", "SecurityClassification": "Public"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadHeader", "Label": "Upload any documents that you have not already provided. You must also upload your claim form again here if the Particulars of claim were included.", "HintText": "Upload the documents you have selected or continue", "FieldType": "Label", "SecurityClassification": "Public"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadParticularsOfClaim", "Label": "Particulars of claim", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadAdditionalDocumentsOfClaim", "Label": "Add documents to support claim.", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public"},
+  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadAdditionalDocumentsOfClaim", "Label": "Add documents to support the claim.", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadResponse", "Label": "Response pack", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public", "Min": 1},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadMedReports", "Label": "Medical reports", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public", "Min": 1},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadSchedulesOfLoss", "Label": "Schedule of loss", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public", "Min": 1},
@@ -217,5 +217,6 @@
   {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimDiscontinuedDate", "Label": "Enter the date from which you want the claim to be discontinued", "HintText": "The date must be today's date or earlier.", "FieldType": "Date", "SecurityClassification": "Public"},
   {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimDiscontinuedReason", "Label": "Explain the reason for discontinuing the claim", "HintText": "Briefly explain why you are discontinuing the claim.", "FieldType": "TextArea", "SecurityClassification": "Public"},
   {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "isClaimantMinor", "Label": "Is the claimant a child?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "requestedCourt", "Label": "## The claimant requested court is", "FieldType": "Label", "SecurityClassification": "Public"}
+  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "requestedCourt", "Label": "## The claimant requested court is", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "isDefendantRepresented", "Label": "Does the Defendant have a legal representative?", "FieldType": "YesOrNo", "SecurityClassification": "Public"}
 ]
