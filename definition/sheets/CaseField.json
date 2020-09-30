@@ -48,7 +48,7 @@
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
     "ID": "claimDetailsIntro",
-    "Label": "\r\nDon't include the full particulars of claim here  - you have the option to upload them on the next page.\r\n\r\nPlease use this space to provide additional details such as the date of accident if personal injury, the date of the alleged negligence if clinical negligence case , the date of the contract if breach of contract and add any other supporting details.",
+    "Label": "\r\nDon't include the full particulars of claim here  - you have the option to upload them on the next page.\r\n\r\nPlease use this space to provide additional details such as the date of accident if personal injury, the date of the alleged negligence if clinical negligence case , the date of the contract if breach of contract and any other supporting details.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -148,13 +148,13 @@
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDob", "Label": "Defendant's date of birth", "HintText": "You must enter this if you know it.", "FieldType": "Date", "SecurityClassification": "Public"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "response", "Label": "The defendant:", "FieldType": "FixedRadioList", "FieldTypeParameter": "ResponseType", "SecurityClassification": "Public"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "responseHandoff", "Label": "This online service only currently supports full defences. Post your response to:\r\n\r\nCounty Court Money Claims Centre\r\n\r\nPO Box 527\r\n\r\nSalford\r\n\r\nM5 0BY\r\n\r\nDX:702634 Salford 5", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "responseHeader", "Label": "## Upload defendant response", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "responseHeader", "Label": "## Upload defence", "FieldType": "Label", "SecurityClassification": "Public"},
   {
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
     "ID": "responseFile",
-    "Label": "Response document",
-    "HintText": "The defendant's response must be in a document in the following format: pdf, doc, docx, jpg, jpeg, xls, xlsx, or png, and with a maximum size of 10MB. \r\nIt must also contain the following statement of truth: \r\n“I believe the facts set out above to be true. I understand that proceedings for contempt of court may be brought against anyone who makes, or causes to be made, a false statement in a document verified by a statement of truth without an honest belief in its truth.”",
+    "Label": "Defendant's defence",
+    "HintText": "The defendant's defence must be in a document in the following format: pdf, doc, docx, jpg, jpeg, xls, xlsx, or png, and with a maximum size of 10MB. \r\nIt must also contain the following statement of truth: \r\n“I believe the facts set out above to be true. I understand that proceedings for contempt of court may be brought against anyone who makes, or causes to be made, a false statement in a document verified by a statement of truth without an honest belief in its truth.”",
     "FieldType": "Document",
     "SecurityClassification": "Public"
   },
@@ -217,6 +217,6 @@
   {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimDiscontinuedDate", "Label": "Enter the date from which you want the claim to be discontinued", "HintText": "The date must be today's date or earlier.", "FieldType": "Date", "SecurityClassification": "Public"},
   {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimDiscontinuedReason", "Label": "Explain the reason for discontinuing the claim", "HintText": "Briefly explain why you are discontinuing the claim.", "FieldType": "TextArea", "SecurityClassification": "Public"},
   {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "isClaimantMinor", "Label": "Is the claimant a child?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "requestedCourt", "Label": "## The claimant requested court is", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "requestedCourt", "Label": "## The claimant's requested court is", "FieldType": "Label", "SecurityClassification": "Public"},
   {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "isDefendantRepresented", "Label": "Does the Defendant have a legal representative?", "FieldType": "YesOrNo", "SecurityClassification": "Public"}
 ]
