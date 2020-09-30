@@ -95,7 +95,6 @@
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseFieldID": "responseHandoff", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseFieldID": "responseFile", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseFieldID": "currentDeadline", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseFieldID": "confirmDeadline", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseFieldID": "extensionProposedDeadline", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseFieldID": "extensionLabel4pm", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseFieldID": "extensionAgreed", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
