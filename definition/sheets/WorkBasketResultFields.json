@@ -1,7 +1,32 @@
 [
-  {"CaseTypeID": "PrototypeUnspecifiedClaims", "CaseFieldID": "previousServiceCaseReference", "Label": "Claim number", "DisplayOrder": 1},
-  {"CaseTypeID": "PrototypeUnspecifiedClaims", "CaseFieldID": "caseName", "Label": "Parties", "DisplayOrder": 2},
-  {"CaseTypeID": "PrototypeUnspecifiedClaims", "CaseFieldID": "solicitorRef", "Label": "Your reference", "DisplayOrder": 3},
-  {"CaseTypeID": "PrototypeUnspecifiedClaims", "CaseFieldID": "[STATE]", "Label": "Case state", "DisplayOrder": 4},
-  {"CaseTypeID": "PrototypeUnspecifiedClaims", "CaseFieldID": "[LAST_MODIFIED_DATE]", "Label": "Last updated", "DisplayOrder": 5}
+  {
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseFieldID": "previousServiceCaseReference",
+    "Label": "Claim number",
+    "DisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseFieldID": "caseName",
+    "Label": "Parties",
+    "DisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseFieldID": "solicitorRef",
+    "Label": "Your reference",
+    "DisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseFieldID": "[STATE]",
+    "Label": "Case state",
+    "DisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseFieldID": "[LAST_MODIFIED_DATE]",
+    "Label": "Last updated",
+    "DisplayOrder": 5
+  }
 ]

@@ -1,7 +1,28 @@
 [
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "litigationFriend", "Label": "Provide litigation friend details", "FieldType": "LitigationFriend", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "caseName", "Label": "Case name", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "previousServiceCaseReference", "Label": "Claim number", "FieldType": "Text", "SecurityClassification": "Public"},
+  {
+    "LiveFrom": "03/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "litigationFriend",
+    "Label": "Provide litigation friend details",
+    "FieldType": "LitigationFriend",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "caseName",
+    "Label": "Case name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "previousServiceCaseReference",
+    "Label": "Claim number",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
   {
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
@@ -10,24 +31,152 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "solicitoHeaderRefs", "Label": "## Claim references", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "solicitorRef", "Label": "Your reference", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantRef", "Label": "Defendant 's legal representative's reference", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "preferredCourtRef", "Label": "## Choose court location", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "preferredCourt", "Label": "Court name", "HintText": "This should be your preferred County Court hearing centre.", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "preferredCourtLink", "Label": "<a target=\"_blank\" href=\"https://courttribunalfinder.service.gov.uk/search/postcode?aol=Money+claims&amp;spoe=nearest\">Find a hearing centre</a> (opens in a new window)", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantHeader", "Label": "# Claimant details", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "Applicants", "Label": " ", "FieldType": "Applicant", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantHeader", "Label": "# Defendant details", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "Respondents", "Label": " ", "FieldType": "Respondent", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantName", "Label": "Claimant name", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantName", "Label": "Defendant name", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeHeader", "Label": "## Defendant's legal representative", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeHeader2", "Label": "## Defendant's legal representative", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeHeader3", "Label": "## Defendant's legal representative", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeContactSearch", "Label": "This should be the representative's personal or work email address not a general email address.", "HintText": "This should be the email address of a person you discussed the claim with, not a group or company one.", "FieldType": "Email", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeWarning", "Label": "You can still issue the claim without their email address but the claim will then continue offline.", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeConfirm", "Label": "Are these the correct details for the defendant's legal representative?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "solicitoHeaderRefs",
+    "Label": "## Claim references",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "solicitorRef",
+    "Label": "Your reference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantRef",
+    "Label": "Defendant 's legal representative's reference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "preferredCourtRef",
+    "Label": "## Choose court location",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "preferredCourt",
+    "Label": "Court name",
+    "HintText": "This should be your preferred County Court hearing centre.",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "preferredCourtLink",
+    "Label": "<a target=\"_blank\" href=\"https://courttribunalfinder.service.gov.uk/search/postcode?aol=Money+claims&amp;spoe=nearest\">Find a hearing centre</a> (opens in a new window)",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantHeader",
+    "Label": "# Claimant details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "Applicants",
+    "Label": " ",
+    "FieldType": "Applicant",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantHeader",
+    "Label": "# Defendant details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "Respondents",
+    "Label": " ",
+    "FieldType": "Respondent",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantName",
+    "Label": "Claimant name",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantName",
+    "Label": "Defendant name",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantProvidedRepresentativeHeader",
+    "Label": "## Defendant's legal representative",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantProvidedRepresentativeHeader2",
+    "Label": "## Defendant's legal representative",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantProvidedRepresentativeHeader3",
+    "Label": "## Defendant's legal representative",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantProvidedRepresentativeContactSearch",
+    "Label": "This should be the representative's personal or work email address not a general email address.",
+    "HintText": "This should be the email address of a person you discussed the claim with, not a group or company one.",
+    "FieldType": "Email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantProvidedRepresentativeWarning",
+    "Label": "You can still issue the claim without their email address but the claim will then continue offline.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantProvidedRepresentativeConfirm",
+    "Label": "Are these the correct details for the defendant's legal representative?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
   {
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
@@ -36,14 +185,70 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeNotFound", "Label": "The email address ${claimantProvidedRepresentativeContactSearch} is not associated with a registered user. \r\n\r\nYou can enter their details on this page, but after issue you can only continue the claim offline, by post.\r\n", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeContactName", "Label": "Contact name", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeOrganisationName", "Label": "Organisation name", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeOrganisationPhone", "Label": "Phone number", "FieldType": "PhoneUK", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeOrganisationDxAddress", "Label": "DX address", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeOrganisationEmail", "Label": "Email address", "FieldType": "Email", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantProvidedRepresentativeOrganisationAddress", "Label": "Service address", "FieldType": "AddressUK", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimDetailsHeader", "Label": "## Briefly describe the claim", "FieldType": "Label", "SecurityClassification": "Public"},
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantProvidedRepresentativeNotFound",
+    "Label": "The email address ${claimantProvidedRepresentativeContactSearch} is not associated with a registered user. \r\n\r\nYou can enter their details on this page, but after issue you can only continue the claim offline, by post.\r\n",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantProvidedRepresentativeContactName",
+    "Label": "Contact name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantProvidedRepresentativeOrganisationName",
+    "Label": "Organisation name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantProvidedRepresentativeOrganisationPhone",
+    "Label": "Phone number",
+    "FieldType": "PhoneUK",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantProvidedRepresentativeOrganisationDxAddress",
+    "Label": "DX address",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantProvidedRepresentativeOrganisationEmail",
+    "Label": "Email address",
+    "FieldType": "Email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantProvidedRepresentativeOrganisationAddress",
+    "Label": "Service address",
+    "FieldType": "AddressUK",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimDetailsHeader",
+    "Label": "## Briefly describe the claim",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
   {
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
@@ -52,15 +257,80 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "reason", "Label": "Claim details", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimType", "Label": "What type of claim is this?", "FieldType": "FixedRadioList", "FieldTypeParameter": "ClaimTypes", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimTypeOther", "Label": "Enter Claim type", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimSubType", "Label": "What type of personal injury is this?", "FieldType": "FixedRadioList", "FieldTypeParameter": "PersonalInjuryTypes", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimSubTypeOther", "Label": "Enter personal injury type", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "particularsOfClaimHeader", "Label": "## Upload particulars of claim", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimValueHeader", "Label": "## Enter expected claim value", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimValueIntro", "Label": "Your fee will be calculated based on the statement of value", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "statementAmountValue", "Label": "Statement of value", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "reason",
+    "Label": "Claim details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimType",
+    "Label": "What type of claim is this?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "ClaimTypes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimTypeOther",
+    "Label": "Enter Claim type",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimSubType",
+    "Label": "What type of personal injury is this?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "PersonalInjuryTypes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimSubTypeOther",
+    "Label": "Enter personal injury type",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "particularsOfClaimHeader",
+    "Label": "## Upload particulars of claim",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimValueHeader",
+    "Label": "## Enter expected claim value",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimValueIntro",
+    "Label": "Your fee will be calculated based on the statement of value",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "statementAmountValue",
+    "Label": "Statement of value",
+    "FieldType": "MoneyGBP",
+    "SecurityClassification": "Public"
+  },
   {
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
@@ -69,8 +339,22 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "feeAmountHeader", "Label": "## Claim fee", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "feeAmountInPennies", "Label": "Issue fee", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "feeAmountHeader",
+    "Label": "## Claim fee",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "feeAmountInPennies",
+    "Label": "Issue fee",
+    "FieldType": "MoneyGBP",
+    "SecurityClassification": "Public"
+  },
   {
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
@@ -79,15 +363,79 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "caseOverviewConfirmed", "Label": "## You have confirmed service\r\n\r\nThe defendant has until 1 April 2020 to respond.\r\n\r\nWe will let you know when they respond.", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "caseOverviewResponded", "Label": "## You have submitted your response\r\n\r\nThe claimant has until 1 April 2020 to proceed.\r\n\r\nWe will let you know when they respond.", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "caseOverviewOffline", "Label": "## The claim will now continue offline\r\n\r\nYou must continue the claim using paper forms.", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "caseOverviewAcknowledged", "Label": "## You have acknowledged service\r\n\r\nYou now have until 1 April 2020 to [respond to the claim](/v2/case/${[CASE_REFERENCE]}/trigger/respond)", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "caseHistoryOverview", "Label": "History", "FieldType": "CaseHistoryViewer", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimHeader", "Label": "# Claim details", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "feeAccount", "Label": "Select a Payment by Account number from the list", "FieldType": "FixedList", "FieldTypeParameter": "PbaNumber", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "feeAccountOther", "Label": "Enter fee account number", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "sotHeader", "Label": "## Statement of truth", "FieldType": "Label", "SecurityClassification": "Public"},
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "caseOverviewConfirmed",
+    "Label": "## You have confirmed service\r\n\r\nThe defendant has until 1 April 2020 to respond.\r\n\r\nWe will let you know when they respond.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "caseOverviewResponded",
+    "Label": "## You have submitted your response\r\n\r\nThe claimant has until 1 April 2020 to proceed.\r\n\r\nWe will let you know when they respond.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "caseOverviewOffline",
+    "Label": "## The claim will now continue offline\r\n\r\nYou must continue the claim using paper forms.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "caseOverviewAcknowledged",
+    "Label": "## You have acknowledged service\r\n\r\nYou now have until 1 April 2020 to [respond to the claim](/v2/case/${[CASE_REFERENCE]}/trigger/respond)",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "caseHistoryOverview",
+    "Label": "History",
+    "FieldType": "CaseHistoryViewer",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimHeader",
+    "Label": "# Claim details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "feeAccount",
+    "Label": "Select a Payment by Account number from the list",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "PbaNumber",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "feeAccountOther",
+    "Label": "Enter fee account number",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "sotHeader",
+    "Label": "## Statement of truth",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
   {
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
@@ -96,37 +444,270 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "sotSignerName", "Label": "Full name", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "sotSignerRole", "Label": "Role", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "docsServed", "Label": "Select the documents you have served on the defendant. You will be able to upload the documents on the next page.", "FieldType": "MultiSelectList", "FieldTypeParameter": "DocumentsServed", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "docsServedOthers", "Label": "List them here:", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadHeader", "Label": "Upload any documents that you have not already provided.", "HintText": "Upload the documents you have selected or continue", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadParticularsOfClaim", "Label": "Particulars of claim", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadAdditionalDocumentsOfClaim", "Label": "Add documents to support the claim.", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadResponse", "Label": "Response pack", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public", "Min": 1},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadMedReports", "Label": "Medical reports", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public", "Min": 1},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadSchedulesOfLoss", "Label": "Schedule of loss", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public", "Min": 1},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadCertsOfSuit", "Label": "Certificate of suitability", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public", "Min": 1},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "uploadOtherDocs", "Label": "Other documents", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public", "Min": 1},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "servicePerson", "Label": "Did you address the documents to a specific person?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "servicePersonName", "Label": "To whom?", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceMethod", "Label": "How did you serve the documents?", "FieldType": "FixedRadioList", "FieldTypeParameter": "ServiceMethods", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceMethodOther", "Label": "Enter the method", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceMethodFax", "Label": "Fax number", "FieldType": "PhoneUK", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceMethodEmail", "Label": "Email address", "FieldType": "Email", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceFriendOther", "Label": "Who did you send it to?", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceFriendOtherAddress", "Label": "What address did you send the certificate of suitability to?", "FieldType": "AddressUK", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantSolicitorAddressLabel", "Label": "## Defendant's legal representative's address:\r\n\r\n6 Delisle Road<br />London<br />United Kingdom<br />SE28 0JE", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "confirmSolicitorAddress", "Label": "Did you serve at this address?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantSolicitorAddress", "Label": "Tell us the address", "FieldType": "AddressUK", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantSolicitorDXLabel", "Label": "## Defendant's legal representative's dx address:\r\n\r\n6324234", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "confirmSolicitorDX", "Label": "Did you serve at this dx address?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceMethodDX", "Label": "Tell us the dx address", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceDestinationBusiness", "Label": "I served to their:", "FieldType": "FixedRadioList", "FieldTypeParameter": "ServiceDestinationsBusiness", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceDestinationBusinessOther", "Label": "Destination type", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceDate", "Label": "When did you serve the documents?", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceDateTime", "Label": "When did you serve the documents?", "FieldType": "DateTime", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "servicedTo", "Label": "On whom did you serve? ", "FieldType": "Text", "SecurityClassification": "Public"},
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "sotSignerName",
+    "Label": "Full name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "sotSignerRole",
+    "Label": "Role",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "docsServed",
+    "Label": "Select the documents you have served on the defendant. You will be able to upload the documents on the next page.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "DocumentsServed",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "docsServedOthers",
+    "Label": "List them here:",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "uploadHeader",
+    "Label": "Upload any documents that you have not already provided.",
+    "HintText": "Upload the documents you have selected or continue",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "uploadParticularsOfClaim",
+    "Label": "Particulars of claim",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "uploadAdditionalDocumentsOfClaim",
+    "Label": "Add documents to support the claim.",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "uploadResponse",
+    "Label": "Response pack",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseDocument",
+    "SecurityClassification": "Public",
+    "Min": 1
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "uploadMedReports",
+    "Label": "Medical reports",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseDocument",
+    "SecurityClassification": "Public",
+    "Min": 1
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "uploadSchedulesOfLoss",
+    "Label": "Schedule of loss",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseDocument",
+    "SecurityClassification": "Public",
+    "Min": 1
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "uploadCertsOfSuit",
+    "Label": "Certificate of suitability",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseDocument",
+    "SecurityClassification": "Public",
+    "Min": 1
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "uploadOtherDocs",
+    "Label": "Other documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseDocument",
+    "SecurityClassification": "Public",
+    "Min": 1
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "servicePerson",
+    "Label": "Did you address the documents to a specific person?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "servicePersonName",
+    "Label": "To whom?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "serviceMethod",
+    "Label": "How did you serve the documents?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "ServiceMethods",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "serviceMethodOther",
+    "Label": "Enter the method",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "serviceMethodFax",
+    "Label": "Fax number",
+    "FieldType": "PhoneUK",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "serviceMethodEmail",
+    "Label": "Email address",
+    "FieldType": "Email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "serviceFriendOther",
+    "Label": "Who did you send it to?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "serviceFriendOtherAddress",
+    "Label": "What address did you send the certificate of suitability to?",
+    "FieldType": "AddressUK",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantSolicitorAddressLabel",
+    "Label": "## Defendant's legal representative's address:\r\n\r\n6 Delisle Road<br />London<br />United Kingdom<br />SE28 0JE",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "confirmSolicitorAddress",
+    "Label": "Did you serve at this address?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantSolicitorAddress",
+    "Label": "Tell us the address",
+    "FieldType": "AddressUK",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantSolicitorDXLabel",
+    "Label": "## Defendant's legal representative's dx address:\r\n\r\n6324234",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "confirmSolicitorDX",
+    "Label": "Did you serve at this dx address?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "serviceMethodDX",
+    "Label": "Tell us the dx address",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "serviceDestinationBusiness",
+    "Label": "I served to their:",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "ServiceDestinationsBusiness",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "serviceDestinationBusinessOther",
+    "Label": "Destination type",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "serviceDate",
+    "Label": "When did you serve the documents?",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "serviceDateTime",
+    "Label": "When did you serve the documents?",
+    "FieldType": "DateTime",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "servicedTo",
+    "Label": "On whom did you serve? ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
   {
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
@@ -135,8 +716,22 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceSotSignerName", "Label": "Name", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceSotSignerRole", "Label": "Role", "FieldType": "Text", "SecurityClassification": "Public"},
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "serviceSotSignerName",
+    "Label": "Name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "serviceSotSignerRole",
+    "Label": "Role",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
   {
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
@@ -145,10 +740,40 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDob", "Label": "Defendant's date of birth", "HintText": "You must enter this if you know it.", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "response", "Label": "The defendant:", "FieldType": "FixedRadioList", "FieldTypeParameter": "ResponseType", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "responseHandoff", "Label": "This online service only currently supports full defences. Post your response to:\r\n\r\nCounty Court Money Claims Centre\r\n\r\nPO Box 527\r\n\r\nSalford\r\n\r\nM5 0BY\r\n\r\nDX:702634 Salford 5", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "responseHeader", "Label": "## Upload defence", "FieldType": "Label", "SecurityClassification": "Public"},
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantDob",
+    "Label": "Defendant's date of birth",
+    "HintText": "You must enter this if you know it.",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "response",
+    "Label": "The defendant:",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "ResponseType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "responseHandoff",
+    "Label": "This online service only currently supports full defences. Post your response to:\r\n\r\nCounty Court Money Claims Centre\r\n\r\nPO Box 527\r\n\r\nSalford\r\n\r\nM5 0BY\r\n\r\nDX:702634 Salford 5",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "responseHeader",
+    "Label": "## Upload defence",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
   {
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
@@ -158,45 +783,324 @@
     "FieldType": "Document",
     "SecurityClassification": "Public"
   },
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "currentDeadline", "Label": "Your current deadline date is", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "extensionProposedDeadline", "Label": "Please provide the new deadline date that you have agreed with the claimant.", "HintText": "This date cannot be more than 28 days from the original deadline.", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "extensionLabel4pm", "Label": "You must respond before the original deadline or proposed deadline.", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "extensionAgreed", "Label": "Have you already agreed a new deadline with the claimant's legal representative?", "HintText": "If not, you can explain why you're asking for an extension here.", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "extensionReason", "Label": "Explain why you're proposing a new deadline?", "HintText": "The claimant will see your answer.", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "extensionAccept", "Label": "Do you agree to the request for an extension?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "extensionCounter", "Label": "Would you like to set a different extended deadline?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "extensionCounterDate", "Label": "New deadline", "HintText": "Date cannot be more than 28 days from the proposed deadline.", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "extensionResponse", "Label": "Add a response", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "intentionToProceed", "Label": "Do you want to proceed with the claim?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "notProceed", "Label": "Why not?", "FieldType": "FixedRadioList", "FieldTypeParameter": "NotProceed", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "notProceedOther", "Label": "Give details", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "settleDate", "Label": "When did you agree to settle the claim?", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defenceResponseHeader", "Label": "## Respond to the defence", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defenceResponse", "Label": "Upload file", "HintText": "Documents must be in the following format: pdf, doc, docx, jpg, jpeg, xls, xlsx, or png, and with a maximum size of 10MB.", "FieldType": "Document", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDQ1", "Label": "File directions questionnaire", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDQ2", "Label": "Disclosure of electronic documents", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDQ3", "Label": "Disclosure of non-electronic documents", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDQ4", "Label": "Disclosure report", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDQ5", "Label": "Experts", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDQ6", "Label": "Witnesses", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDQ7", "Label": "Hearing", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDQ8", "Label": " ", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDQ9", "Label": " ", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDQ10", "Label": " ", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDQ11", "Label": " ", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDQ12", "Label": " ", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "defendantDQ13", "Label": " ", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantDQ1", "Label": "File directions questionnaire", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantDQ2", "Label": "Disclosure of electronic documents", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantDQ3", "Label": "Disclosure of non-electronic documents", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantDQ4", "Label": "Disclosure report", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantDQ5", "Label": "Experts", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantDQ6", "Label": "Witnesses", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantDQ7", "Label": "Hearing", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantDQ8", "Label": " ", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantDQ9", "Label": " ", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantDQ10", "Label": " ", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimantDQ11", "Label": " ", "FieldType": "DQFastMulti", "SecurityClassification": "Public"},
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "currentDeadline",
+    "Label": "Your current deadline date is",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "extensionProposedDeadline",
+    "Label": "Please provide the new deadline date that you have agreed with the claimant.",
+    "HintText": "This date cannot be more than 28 days from the original deadline.",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "extensionLabel4pm",
+    "Label": "You must respond before the original deadline or proposed deadline.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "extensionAgreed",
+    "Label": "Have you already agreed a new deadline with the claimant's legal representative?",
+    "HintText": "If not, you can explain why you're asking for an extension here.",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "extensionReason",
+    "Label": "Explain why you're proposing a new deadline?",
+    "HintText": "The claimant will see your answer.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "extensionAccept",
+    "Label": "Do you agree to the request for an extension?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "extensionCounter",
+    "Label": "Would you like to set a different extended deadline?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "extensionCounterDate",
+    "Label": "New deadline",
+    "HintText": "Date cannot be more than 28 days from the proposed deadline.",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "extensionResponse",
+    "Label": "Add a response",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "intentionToProceed",
+    "Label": "Do you want to proceed with the claim?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "notProceed",
+    "Label": "Why not?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "NotProceed",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "notProceedOther",
+    "Label": "Give details",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "settleDate",
+    "Label": "When did you agree to settle the claim?",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defenceResponseHeader",
+    "Label": "## Respond to the defence",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defenceResponse",
+    "Label": "Upload file",
+    "HintText": "Documents must be in the following format: pdf, doc, docx, jpg, jpeg, xls, xlsx, or png, and with a maximum size of 10MB.",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantDQ1",
+    "Label": "File directions questionnaire",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantDQ2",
+    "Label": "Disclosure of electronic documents",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantDQ3",
+    "Label": "Disclosure of non-electronic documents",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantDQ4",
+    "Label": "Disclosure report",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantDQ5",
+    "Label": "Experts",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantDQ6",
+    "Label": "Witnesses",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantDQ7",
+    "Label": "Hearing",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantDQ8",
+    "Label": " ",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantDQ9",
+    "Label": " ",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantDQ10",
+    "Label": " ",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantDQ11",
+    "Label": " ",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantDQ12",
+    "Label": " ",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "defendantDQ13",
+    "Label": " ",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantDQ1",
+    "Label": "File directions questionnaire",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantDQ2",
+    "Label": "Disclosure of electronic documents",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantDQ3",
+    "Label": "Disclosure of non-electronic documents",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantDQ4",
+    "Label": "Disclosure report",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantDQ5",
+    "Label": "Experts",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantDQ6",
+    "Label": "Witnesses",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantDQ7",
+    "Label": "Hearing",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantDQ8",
+    "Label": " ",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantDQ9",
+    "Label": " ",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantDQ10",
+    "Label": " ",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimantDQ11",
+    "Label": " ",
+    "FieldType": "DQFastMulti",
+    "SecurityClassification": "Public"
+  },
   {
     "LiveFrom": "02/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
@@ -205,17 +1109,114 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-  {"LiveFrom": "02/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "sotJudgmentName", "Label": "Your name", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "sotJudgmentRole", "Label": "Your role", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "responsePaper", "Label": "Type of response received", "FieldType": "FixedRadioList", "FieldTypeParameter": "ResponseTypePaper", "SecurityClassification": "Public"},
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "dateReceived", "Label": "Date received", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "applicationPaper", "Label": "Received from", "FieldType": "FixedRadioList", "FieldTypeParameter": "ApplicationFrom", "SecurityClassification": "Public"},
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "applicationDateReceived", "Label": "Date received", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimWithdrawlDate", "Label": "Enter the date from which you want the claim to be withdrawn", "HintText": "The date must be today's date or earlier.", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimWithdrawlReason", "Label": "Explain the reason for withdrawl", "HintText": "Briefly explain why you are withdrawing the claim.", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimDiscontinuedDate", "Label": "Enter the date from which you want the claim to be discontinued", "HintText": "The date must be today's date or earlier.", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "claimDiscontinuedReason", "Label": "Explain the reason for discontinuing the claim", "HintText": "Briefly explain why you are discontinuing the claim.", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "isClaimantMinor", "Label": "Is the claimant a child?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "requestedCourt", "Label": "## The claimant's requested court is", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"LiveFrom": "03/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "isDefendantRepresented", "Label": "Does the Defendant have a legal representative?", "FieldType": "YesOrNo", "SecurityClassification": "Public"}
+  {
+    "LiveFrom": "02/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "sotJudgmentName",
+    "Label": "Your name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "sotJudgmentRole",
+    "Label": "Your role",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "responsePaper",
+    "Label": "Type of response received",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "ResponseTypePaper",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "dateReceived",
+    "Label": "Date received",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "applicationPaper",
+    "Label": "Received from",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "ApplicationFrom",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "applicationDateReceived",
+    "Label": "Date received",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimWithdrawlDate",
+    "Label": "Enter the date from which you want the claim to be withdrawn",
+    "HintText": "The date must be today's date or earlier.",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimWithdrawlReason",
+    "Label": "Explain the reason for withdrawl",
+    "HintText": "Briefly explain why you are withdrawing the claim.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimDiscontinuedDate",
+    "Label": "Enter the date from which you want the claim to be discontinued",
+    "HintText": "The date must be today's date or earlier.",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "claimDiscontinuedReason",
+    "Label": "Explain the reason for discontinuing the claim",
+    "HintText": "Briefly explain why you are discontinuing the claim.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "isClaimantMinor",
+    "Label": "Is the claimant a child?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "requestedCourt",
+    "Label": "## The claimant's requested court is",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "isDefendantRepresented",
+    "Label": "Does the Defendant have a legal representative?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  }
 ]

@@ -1,88 +1,606 @@
 [
-  {"ID": "Telephone", "ListElementCode": "telephoneNumber", "FieldType": "Text", "ElementLabel": "Contact Number", "SecurityClassification": "Public"},
-  {"ID": "Telephone", "ListElementCode": "telephoneUsageType", "FieldType": "Text", "ElementLabel": "Phone type", "SecurityClassification": "Public"},
-  {"ID": "Telephone", "ListElementCode": "contactDirection", "FieldType": "Text", "ElementLabel": "Contact comment", "SecurityClassification": "Public"},
-  {"ID": "TimelineEvent", "ListElementCode": "date", "FieldType": "Text", "ElementLabel": "Date", "SecurityClassification": "Public"},
-  {"ID": "TimelineEvent", "ListElementCode": "description", "FieldType": "Text", "ElementLabel": "Description", "SecurityClassification": "Public"},
-  {"ID": "CaseDocument", "ListElementCode": "documentName", "FieldType": "Text", "ElementLabel": "Name", "SecurityClassification": "Public"},
-  {"ID": "CaseDocument", "ListElementCode": "documentType", "FieldType": "FixedList", "FieldTypeParameter": "DocumentType", "ElementLabel": "Type", "SecurityClassification": "Public"},
-  {"ID": "CaseDocument", "ListElementCode": "documentLink", "FieldType": "Document", "ElementLabel": "Document URL", "SecurityClassification": "Public"},
-  {"ID": "CaseDocument", "ListElementCode": "authoredDatetime", "FieldType": "DateTime", "ElementLabel": "Reviewed on", "SecurityClassification": "Public"},
-  {"ID": "CaseDocument", "ListElementCode": "size", "FieldType": "Number", "ElementLabel": "Document size", "SecurityClassification": "Public"},
-  {"ID": "CaseDocument", "ListElementCode": "createdDatetime", "FieldType": "DateTime", "ElementLabel": "Uploaded on", "SecurityClassification": "Public"},
-  {"ID": "CaseDocument", "ListElementCode": "createdBy", "FieldType": "Text", "ElementLabel": "Uploaded by", "SecurityClassification": "Public"},
-  {"ID": "CaseDocument", "ListElementCode": "receivedDatetime", "FieldType": "DateTime", "ElementLabel": "Received on", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "partyId", "FieldType": "Text", "ElementLabel": "Party Id", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "idamId", "FieldType": "Text", "ElementLabel": "Idam id", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "type", "FieldType": "FixedRadioList", "FieldTypeParameter": "PartyType", "ElementLabel": "Defendant type", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "title", "FieldType": "Text", "ElementLabel": "Title", "FieldShowCondition": "type=\"INDIVIDUAL\" OR type=\"SOLE_TRADER\" ", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "firstName", "FieldType": "Text", "ElementLabel": "First name", "FieldShowCondition": "type=\"INDIVIDUAL\" OR type=\"SOLE_TRADER\" ", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "lastName", "FieldType": "Text", "ElementLabel": "Last name", "FieldShowCondition": "type=\"INDIVIDUAL\" OR type=\"SOLE_TRADER\" ", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "dateOfBirth", "FieldType": "Date", "ElementLabel": "Date of birth", "FieldShowCondition": "type=\"INDIVIDUAL\" OR type=\"SOLE_TRADER\" ", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "primaryAddress", "FieldType": "AddressUK", "ElementLabel": "Address", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "emailAddress", "FieldType": "Email", "ElementLabel": "Email id", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "telephoneNumber", "FieldType": "Telephone", "ElementLabel": "Contact details", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "correspondenceAddress", "FieldType": "AddressGlobalUK", "ElementLabel": "Correspondence address", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "businessName", "FieldType": "Text", "ElementLabel": "Business Name", "FieldShowCondition": "type=\"ORGANISATION\" OR type=\"COMPANY\" ", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "contactPerson", "FieldType": "Text", "ElementLabel": "Contact person", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "tradingAs", "FieldType": "Text", "ElementLabel": "Trading as", "FieldShowCondition": "type=\"SOLE_TRADER\"", "SecurityClassification": "Public"},
-  {"ID": "Party", "ListElementCode": "companiesHouseNumber", "FieldType": "Text", "ElementLabel": "Companies house number", "SecurityClassification": "Public"},
-  {"ID": "Applicant", "ListElementCode": "partyName", "FieldType": "Text", "ElementLabel": "Applicant name", "SecurityClassification": "Public"},
-  {"ID": "Applicant", "ListElementCode": "partyDetail", "FieldType": "Party", "ElementLabel": " ", "SecurityClassification": "Public"},
-  {"ID": "Applicant", "ListElementCode": "partyDetailsLabel", "FieldType": "Label", "ElementLabel": "**Claimant details**", "SecurityClassification": "Public"},
-  {"ID": "Applicant", "ListElementCode": "representativeLabel", "FieldType": "Label", "ElementLabel": "**Representative details**", "SecurityClassification": "Public"},
-  {"ID": "Applicant", "ListElementCode": "representativeOrganisationName", "FieldType": "Text", "ElementLabel": "Organisation name", "SecurityClassification": "Public"},
-  {"ID": "Applicant", "ListElementCode": "representativeOrganisationAddress", "FieldType": "AddressUK", "ElementLabel": "Organisation address", "SecurityClassification": "Public"},
-  {"ID": "Applicant", "ListElementCode": "representativeOrganisationPhone", "FieldType": "Text", "ElementLabel": "Organisation Phone", "SecurityClassification": "Public"},
-  {"ID": "Applicant", "ListElementCode": "representativeOrganisationDxAddress", "FieldType": "Text", "ElementLabel": "Organisation DxAddress", "SecurityClassification": "Public"},
-  {"ID": "Applicant", "ListElementCode": "representativeOrganisationEmail", "FieldType": "Email", "ElementLabel": "Organisation Email", "SecurityClassification": "Public"},
-  {"ID": "Applicant", "ListElementCode": "leadApplicantIndicator", "FieldType": "YesOrNo", "ElementLabel": "Lead applicant", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "partyName", "FieldType": "Text", "ElementLabel": "Defendant Name", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "defendantResponseLabel", "FieldType": "Label", "ElementLabel": "Defendant response", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "responseSubmittedOn", "FieldType": "DateTime", "ElementLabel": "Response received date and time", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "servedDate", "FieldType": "Date", "ElementLabel": "Served date", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "responseIntention", "FieldType": "FixedRadioList", "FieldTypeParameter": "ResponseIndicationType", "ElementLabel": "The defendant intends to:", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "responseDeadline", "FieldType": "Date", "ElementLabel": "Response deadline", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "responseType", "FieldType": "FixedList", "FieldTypeParameter": "ResponseType", "ElementLabel": "Response type", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "responseAmount", "FieldType": "MoneyGBP", "ElementLabel": "Amount agreed as part owed", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "paymentDeclarationPaidAmount", "FieldType": "MoneyGBP", "ElementLabel": "Amount declared as part paid", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "paymentDeclarationPaidDate", "FieldType": "Date", "ElementLabel": "Paid date", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "paymentDeclarationExplanation", "FieldType": "Text", "ElementLabel": "Explanation", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "responseDefenceType", "FieldType": "FixedList", "FieldTypeParameter": "DefenceType", "ElementLabel": "Defence type", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "responseDefence", "FieldType": "Text", "ElementLabel": "Defence", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "responseMoreTimeNeededOption", "FieldType": "YesOrNo", "ElementLabel": "More time requested", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "responseDefendantSOTSignerName", "FieldType": "Text", "ElementLabel": "Statement of truth Signer Name", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "responseDefendantSOTSignerRole", "FieldType": "Text", "ElementLabel": "Statement of truth Signer Type", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "paidInFullDate", "FieldType": "Date", "ElementLabel": "Full amount paid date", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "defendantId", "FieldType": "Text", "ElementLabel": "Defendant linking ID", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "partyDetailsLabel", "FieldType": "Label", "ElementLabel": "**Defendant details**", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "partyDetail", "FieldType": "Party", "ElementLabel": " ", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "representativeLabel", "FieldType": "Label", "ElementLabel": "**Representative details**", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "representativeOrganisationName", "FieldType": "Text", "ElementLabel": "Organisation name", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "representativeOrganisationAddress", "FieldType": "AddressUK", "ElementLabel": "Representative's address", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "representativeOrganisationPhone", "FieldType": "Text", "ElementLabel": "Organisation Phone", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "representativeOrganisationDxAddress", "FieldType": "Text", "ElementLabel": "Organisation DxAddress", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "representativeOrganisationEmail", "FieldType": "Email", "ElementLabel": "Organisation Email", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "claimantProvidedDetail", "FieldType": "Party", "ElementLabel": "Defendant details", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "claimantProvidedPartyName", "FieldType": "Text", "ElementLabel": "Respondent name provided by applicant", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "claimantProvidedRepresentativeOrganisationAddress", "FieldType": "AddressUK", "ElementLabel": "Organisation address", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "claimantProvidedRepresentativeOrganisationPhone", "FieldType": "Text", "ElementLabel": "Organisation Phone", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "claimantProvidedRepresentativeOrganisationDxAddress", "FieldType": "Text", "ElementLabel": "Organisation DxAddress", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "claimantProvidedRepresentativeOrganisationEmail", "FieldType": "Email", "ElementLabel": "Organisation Email", "SecurityClassification": "Public"},
-  {"ID": "Expert", "ListElementCode": "expertName", "FieldType": "Text", "ElementLabel": "Expert's name", "SecurityClassification": "Public"},
-  {"ID": "Expert", "ListElementCode": "expertField", "FieldType": "Text", "ElementLabel": "Field of expertise", "SecurityClassification": "Public"},
-  {"ID": "Expert", "ListElementCode": "expertReason", "FieldType": "TextArea", "ElementLabel": "Why you need this expert", "SecurityClassification": "Public"},
-  {"ID": "Expert", "ListElementCode": "expertCost", "FieldType": "MoneyGBP", "ElementLabel": "Estimated cost", "SecurityClassification": "Public"},
-  {"ID": "Witness", "ListElementCode": "witnessName", "FieldType": "Text", "ElementLabel": "Name", "SecurityClassification": "Public"},
-  {"ID": "Witness", "ListElementCode": "witnessReason", "FieldType": "TextArea", "ElementLabel": "What are they a witness to?", "SecurityClassification": "Public"},
-  {"ID": "dateUnavailable", "ListElementCode": "name", "FieldType": "Text", "ElementLabel": "Name of unavailable person", "SecurityClassification": "Public"},
-  {"ID": "dateUnavailable", "ListElementCode": "date", "FieldType": "Date", "ElementLabel": "Unavailable date", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "explainedSettle", "FieldType": "MultiSelectList", "FieldTypeParameter": "Confirm", "ElementLabel": " ", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "requestStay", "FieldType": "YesOrNo", "ElementLabel": "Do you want a one-month stay to try to settle the claim?", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "compliedPreaction", "FieldType": "YesOrNo", "ElementLabel": "Have you complied with the pre-action protocol?", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "compliedPreactionReason", "FieldType": "TextArea", "ElementLabel": "Explain why not", "FieldShowCondition": "compliedPreaction=\"No\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "electronicDocumentsAgreement", "FieldType": "YesOrNo", "ElementLabel": "Have you reached agreement, either using the Electronic Documents Questionnaire in Practice Direction 31B or otherwise, about the scope and extent of disclosure of electronic documents on each side?", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "agreementLikelyWithElectronicDocuments", "FieldType": "YesOrNo", "ElementLabel": "Is such agreement likely?", "FieldShowCondition": "electronicDocumentsAgreement=\"No\"", "SecurityClassification": "Public"},
+  {
+    "ID": "Telephone",
+    "ListElementCode": "telephoneNumber",
+    "FieldType": "Text",
+    "ElementLabel": "Contact Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Telephone",
+    "ListElementCode": "telephoneUsageType",
+    "FieldType": "Text",
+    "ElementLabel": "Phone type",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Telephone",
+    "ListElementCode": "contactDirection",
+    "FieldType": "Text",
+    "ElementLabel": "Contact comment",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TimelineEvent",
+    "ListElementCode": "date",
+    "FieldType": "Text",
+    "ElementLabel": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TimelineEvent",
+    "ListElementCode": "description",
+    "FieldType": "Text",
+    "ElementLabel": "Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "CaseDocument",
+    "ListElementCode": "documentName",
+    "FieldType": "Text",
+    "ElementLabel": "Name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "CaseDocument",
+    "ListElementCode": "documentType",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "DocumentType",
+    "ElementLabel": "Type",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "CaseDocument",
+    "ListElementCode": "documentLink",
+    "FieldType": "Document",
+    "ElementLabel": "Document URL",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "CaseDocument",
+    "ListElementCode": "authoredDatetime",
+    "FieldType": "DateTime",
+    "ElementLabel": "Reviewed on",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "CaseDocument",
+    "ListElementCode": "size",
+    "FieldType": "Number",
+    "ElementLabel": "Document size",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "CaseDocument",
+    "ListElementCode": "createdDatetime",
+    "FieldType": "DateTime",
+    "ElementLabel": "Uploaded on",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "CaseDocument",
+    "ListElementCode": "createdBy",
+    "FieldType": "Text",
+    "ElementLabel": "Uploaded by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "CaseDocument",
+    "ListElementCode": "receivedDatetime",
+    "FieldType": "DateTime",
+    "ElementLabel": "Received on",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "partyId",
+    "FieldType": "Text",
+    "ElementLabel": "Party Id",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "idamId",
+    "FieldType": "Text",
+    "ElementLabel": "Idam id",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "type",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "PartyType",
+    "ElementLabel": "Defendant type",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "title",
+    "FieldType": "Text",
+    "ElementLabel": "Title",
+    "FieldShowCondition": "type=\"INDIVIDUAL\" OR type=\"SOLE_TRADER\" ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "firstName",
+    "FieldType": "Text",
+    "ElementLabel": "First name",
+    "FieldShowCondition": "type=\"INDIVIDUAL\" OR type=\"SOLE_TRADER\" ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "lastName",
+    "FieldType": "Text",
+    "ElementLabel": "Last name",
+    "FieldShowCondition": "type=\"INDIVIDUAL\" OR type=\"SOLE_TRADER\" ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "dateOfBirth",
+    "FieldType": "Date",
+    "ElementLabel": "Date of birth",
+    "FieldShowCondition": "type=\"INDIVIDUAL\" OR type=\"SOLE_TRADER\" ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "primaryAddress",
+    "FieldType": "AddressUK",
+    "ElementLabel": "Address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "emailAddress",
+    "FieldType": "Email",
+    "ElementLabel": "Email id",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "telephoneNumber",
+    "FieldType": "Telephone",
+    "ElementLabel": "Contact details",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "correspondenceAddress",
+    "FieldType": "AddressGlobalUK",
+    "ElementLabel": "Correspondence address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "businessName",
+    "FieldType": "Text",
+    "ElementLabel": "Business Name",
+    "FieldShowCondition": "type=\"ORGANISATION\" OR type=\"COMPANY\" ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "contactPerson",
+    "FieldType": "Text",
+    "ElementLabel": "Contact person",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "tradingAs",
+    "FieldType": "Text",
+    "ElementLabel": "Trading as",
+    "FieldShowCondition": "type=\"SOLE_TRADER\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Party",
+    "ListElementCode": "companiesHouseNumber",
+    "FieldType": "Text",
+    "ElementLabel": "Companies house number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Applicant",
+    "ListElementCode": "partyName",
+    "FieldType": "Text",
+    "ElementLabel": "Applicant name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Applicant",
+    "ListElementCode": "partyDetail",
+    "FieldType": "Party",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Applicant",
+    "ListElementCode": "partyDetailsLabel",
+    "FieldType": "Label",
+    "ElementLabel": "**Claimant details**",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Applicant",
+    "ListElementCode": "representativeLabel",
+    "FieldType": "Label",
+    "ElementLabel": "**Representative details**",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Applicant",
+    "ListElementCode": "representativeOrganisationName",
+    "FieldType": "Text",
+    "ElementLabel": "Organisation name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Applicant",
+    "ListElementCode": "representativeOrganisationAddress",
+    "FieldType": "AddressUK",
+    "ElementLabel": "Organisation address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Applicant",
+    "ListElementCode": "representativeOrganisationPhone",
+    "FieldType": "Text",
+    "ElementLabel": "Organisation Phone",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Applicant",
+    "ListElementCode": "representativeOrganisationDxAddress",
+    "FieldType": "Text",
+    "ElementLabel": "Organisation DxAddress",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Applicant",
+    "ListElementCode": "representativeOrganisationEmail",
+    "FieldType": "Email",
+    "ElementLabel": "Organisation Email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Applicant",
+    "ListElementCode": "leadApplicantIndicator",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Lead applicant",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "partyName",
+    "FieldType": "Text",
+    "ElementLabel": "Defendant Name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "defendantResponseLabel",
+    "FieldType": "Label",
+    "ElementLabel": "Defendant response",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseSubmittedOn",
+    "FieldType": "DateTime",
+    "ElementLabel": "Response received date and time",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "servedDate",
+    "FieldType": "Date",
+    "ElementLabel": "Served date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseIntention",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "ResponseIndicationType",
+    "ElementLabel": "The defendant intends to:",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseDeadline",
+    "FieldType": "Date",
+    "ElementLabel": "Response deadline",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseType",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "ResponseType",
+    "ElementLabel": "Response type",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseAmount",
+    "FieldType": "MoneyGBP",
+    "ElementLabel": "Amount agreed as part owed",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "paymentDeclarationPaidAmount",
+    "FieldType": "MoneyGBP",
+    "ElementLabel": "Amount declared as part paid",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "paymentDeclarationPaidDate",
+    "FieldType": "Date",
+    "ElementLabel": "Paid date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "paymentDeclarationExplanation",
+    "FieldType": "Text",
+    "ElementLabel": "Explanation",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseDefenceType",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "DefenceType",
+    "ElementLabel": "Defence type",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseDefence",
+    "FieldType": "Text",
+    "ElementLabel": "Defence",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseMoreTimeNeededOption",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "More time requested",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseDefendantSOTSignerName",
+    "FieldType": "Text",
+    "ElementLabel": "Statement of truth Signer Name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseDefendantSOTSignerRole",
+    "FieldType": "Text",
+    "ElementLabel": "Statement of truth Signer Type",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "paidInFullDate",
+    "FieldType": "Date",
+    "ElementLabel": "Full amount paid date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "defendantId",
+    "FieldType": "Text",
+    "ElementLabel": "Defendant linking ID",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "partyDetailsLabel",
+    "FieldType": "Label",
+    "ElementLabel": "**Defendant details**",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "partyDetail",
+    "FieldType": "Party",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "representativeLabel",
+    "FieldType": "Label",
+    "ElementLabel": "**Representative details**",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "representativeOrganisationName",
+    "FieldType": "Text",
+    "ElementLabel": "Organisation name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "representativeOrganisationAddress",
+    "FieldType": "AddressUK",
+    "ElementLabel": "Representative's address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "representativeOrganisationPhone",
+    "FieldType": "Text",
+    "ElementLabel": "Organisation Phone",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "representativeOrganisationDxAddress",
+    "FieldType": "Text",
+    "ElementLabel": "Organisation DxAddress",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "representativeOrganisationEmail",
+    "FieldType": "Email",
+    "ElementLabel": "Organisation Email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "claimantProvidedDetail",
+    "FieldType": "Party",
+    "ElementLabel": "Defendant details",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "claimantProvidedPartyName",
+    "FieldType": "Text",
+    "ElementLabel": "Respondent name provided by applicant",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "claimantProvidedRepresentativeOrganisationAddress",
+    "FieldType": "AddressUK",
+    "ElementLabel": "Organisation address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "claimantProvidedRepresentativeOrganisationPhone",
+    "FieldType": "Text",
+    "ElementLabel": "Organisation Phone",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "claimantProvidedRepresentativeOrganisationDxAddress",
+    "FieldType": "Text",
+    "ElementLabel": "Organisation DxAddress",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "claimantProvidedRepresentativeOrganisationEmail",
+    "FieldType": "Email",
+    "ElementLabel": "Organisation Email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Expert",
+    "ListElementCode": "expertName",
+    "FieldType": "Text",
+    "ElementLabel": "Expert's name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Expert",
+    "ListElementCode": "expertField",
+    "FieldType": "Text",
+    "ElementLabel": "Field of expertise",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Expert",
+    "ListElementCode": "expertReason",
+    "FieldType": "TextArea",
+    "ElementLabel": "Why you need this expert",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Expert",
+    "ListElementCode": "expertCost",
+    "FieldType": "MoneyGBP",
+    "ElementLabel": "Estimated cost",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Witness",
+    "ListElementCode": "witnessName",
+    "FieldType": "Text",
+    "ElementLabel": "Name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Witness",
+    "ListElementCode": "witnessReason",
+    "FieldType": "TextArea",
+    "ElementLabel": "What are they a witness to?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "dateUnavailable",
+    "ListElementCode": "name",
+    "FieldType": "Text",
+    "ElementLabel": "Name of unavailable person",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "dateUnavailable",
+    "ListElementCode": "date",
+    "FieldType": "Date",
+    "ElementLabel": "Unavailable date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "explainedSettle",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "Confirm",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "requestStay",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Do you want a one-month stay to try to settle the claim?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "compliedPreaction",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Have you complied with the pre-action protocol?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "compliedPreactionReason",
+    "FieldType": "TextArea",
+    "ElementLabel": "Explain why not",
+    "FieldShowCondition": "compliedPreaction=\"No\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "electronicDocumentsAgreement",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Have you reached agreement, either using the Electronic Documents Questionnaire in Practice Direction 31B or otherwise, about the scope and extent of disclosure of electronic documents on each side?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "agreementLikelyWithElectronicDocuments",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is such agreement likely?",
+    "FieldShowCondition": "electronicDocumentsAgreement=\"No\"",
+    "SecurityClassification": "Public"
+  },
   {
     "ID": "DQFastMulti",
     "ListElementCode": "noAgreementLikelyWithElectronicDocuments",
@@ -91,43 +609,304 @@
     "FieldShowCondition": "electronicDocumentsAgreement=\"No\" AND agreementLikelyWithElectronicDocuments=\"No\"",
     "SecurityClassification": "Public"
   },
-  {"ID": "DQFastMulti", "ListElementCode": "nonElectronicDirections", "FieldType": "Text", "ElementLabel": "What directions are proposed for disclosure?", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "disclosureReportFiled", "FieldType": "YesOrNo", "ElementLabel": "Have you filed and served a disclosure report (Form N263) (see Civil Procedure Rules Part 31)?", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "disclosureAgreement", "FieldType": "YesOrNo", "ElementLabel": "Have you agreed a proposal in relation to disclosure that meets the overriding objective?", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "draftOrderNumber", "FieldType": "Text", "ElementLabel": "Please ensure this is contained within the proposed directions attached and specify the draft order number.", "FieldShowCondition": "disclosureAgreement=\"Yes\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "expertReportPermission", "FieldType": "YesOrNo", "ElementLabel": "Do you want to use an expert?", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "expertReportSent", "FieldType": "FixedRadioList", "FieldTypeParameter": "ExpertReportSent", "ElementLabel": "Have you already sent expert reports or similar to other parties?", "FieldShowCondition": "expertReportPermission=\"Yes\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "expertJoint", "FieldType": "YesOrNo", "ElementLabel": "Do you think the case is suitable for a single joint expert?", "FieldShowCondition": "expertReportPermission=\"Yes\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "expertDetails", "FieldType": "Collection", "FieldTypeParameter": "Expert", "ElementLabel": "Expert details", "FieldShowCondition": "expertReportPermission=\"Yes\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "witnesses", "FieldType": "YesOrNo", "ElementLabel": "Are there witnesses who should attend a hearing?", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "electronicDocuments", "FieldType": "YesOrNo", "ElementLabel": "Have you reached agreement, either using the Electronic Documents Questionnaire in Practice Direction 31B or otherwise, about the scope and extent of disclosure of electronic documents on each side?", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "electronicDocumentsWhy", "FieldType": "TextArea", "ElementLabel": "Explain why not", "FieldShowCondition": "electronicDocuments=\"No\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "electronicDocumentsWhat", "FieldType": "TextArea", "ElementLabel": "Enter your preferred directions for disclosure", "FieldShowCondition": "electronicDocuments=\"Yes\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "witnessesDetails", "FieldType": "Collection", "FieldTypeParameter": "Witness", "ElementLabel": "Witness details", "FieldShowCondition": "witnesses=\"Yes\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "estimatedHearingDuration", "FieldType": "FixedRadioList", "FieldTypeParameter": "HearingLength", "ElementLabel": "How long do you estimate the hearing will take?", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "estimatedHearingDurationHours", "FieldType": "Number", "ElementLabel": "How many hours?", "FieldShowCondition": "estimatedHearingDuration=\"HOURS\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "estimatedHearingDurationDays", "FieldType": "Number", "ElementLabel": "How many days?", "FieldShowCondition": "estimatedHearingDuration=\"DAYS\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "datesUnavailable", "FieldType": "YesOrNo", "ElementLabel": "Are there any days within the next 12 months when you, your client, an expert or a witness couldn't attend a hearing?", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "datesUnavailableList", "FieldType": "Collection", "FieldTypeParameter": "dateUnavailable", "ElementLabel": "Unavailable date", "FieldShowCondition": "datesUnavailable=\"Yes\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "draftDirectionsHeader", "FieldType": "Label", "ElementLabel": "## Upload draft directions", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "draftDirectionsIntro", "FieldType": "Label", "ElementLabel": "If you have these, upload them whether they're agreed or not.", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "draftDirections", "FieldType": "CaseDocument", "ElementLabel": " ", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "requestCourt", "FieldType": "YesOrNo", "ElementLabel": "Do you want to ask for the hearing to be held at a specific court? ", "HintText": "If not, it'll be held at the claimant's preferred court.", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "requestCourtLink", "FieldType": "Label", "ElementLabel": "<a target=\"_blank\" href=\"https://courttribunalfinder.service.gov.uk/search/postcode?aol=Money+claims&amp;spoe=nearest\">Find a hearing centre</a> (opens in a new window)", "FieldShowCondition": "requestCourt=\"Yes\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "requestCourtLocation", "FieldType": "Text", "ElementLabel": "Court name", "FieldShowCondition": "requestCourt=\"Yes\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "requestCourtReason", "FieldType": "TextArea", "ElementLabel": "Briefly explain your reasons", "FieldShowCondition": "requestCourt=\"Yes\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "support", "FieldType": "MultiSelectList", "FieldTypeParameter": "SupportOptions", "ElementLabel": "Select any support you, your client, and any experts or witnesses would require for a court hearing.", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "supportSignLanguage", "FieldType": "Text", "ElementLabel": "Enter the sign language you need", "FieldShowCondition": "support CONTAINS \"SIGN_LANGUAGE\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "supportLanguage", "FieldType": "Text", "ElementLabel": "What language needs to be interpreted?", "FieldShowCondition": "support CONTAINS \"LANGUAGE\"", "HintText": "You may have to arrange and pay for interpreters except for Welsh. The court will tell you.", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "supportOther", "FieldType": "TextArea", "ElementLabel": "Tell us the other support that's needed - the court can't guarantee it, but it will consider physical or mental health impairments.", "FieldShowCondition": "support CONTAINS \"OTHER\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "otherApplications", "FieldType": "YesOrNo", "ElementLabel": "Do you intend to make any applications in the future?", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "otherApplicationsInfo", "FieldType": "TextArea", "ElementLabel": "What for?", "FieldShowCondition": "otherApplications=\"Yes\"", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "otherInfo", "FieldType": "TextArea", "ElementLabel": "Provide any other information that the judge may need", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "signatureHeader", "FieldType": "Label", "ElementLabel": "## Signature", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "signatureName", "FieldType": "Text", "ElementLabel": "Full name", "SecurityClassification": "Public"},
-  {"ID": "DQFastMulti", "ListElementCode": "signatureRole", "FieldType": "Text", "ElementLabel": "Role", "SecurityClassification": "Public"},
-  {"ID": "LitigationFriend", "ListElementCode": "litigationFriendName", "FieldType": "Text", "ElementLabel": "Full name", "SecurityClassification": "Public"},
-  {"ID": "LitigationFriend", "ListElementCode": "litigationAddressRequired", "FieldType": "YesOrNo", "ElementLabel": "Is the claimant address and litigation friend address the same?", "SecurityClassification": "Public"},
-  {"ID": "LitigationFriend", "ListElementCode": "litigationAddress", "FieldType": "AddressUK", "ElementLabel": "Litigation friend's address", "FieldShowCondition": "litigationAddressRequired=\"No\"", "SecurityClassification": "Public"},
-  {"ID": "LitigationFriend", "ListElementCode": "litigationCertificates", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "ElementLabel": "Upload the certificate of suitability", "SecurityClassification": "Public"}
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "nonElectronicDirections",
+    "FieldType": "Text",
+    "ElementLabel": "What directions are proposed for disclosure?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "disclosureReportFiled",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Have you filed and served a disclosure report (Form N263) (see Civil Procedure Rules Part 31)?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "disclosureAgreement",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Have you agreed a proposal in relation to disclosure that meets the overriding objective?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "draftOrderNumber",
+    "FieldType": "Text",
+    "ElementLabel": "Please ensure this is contained within the proposed directions attached and specify the draft order number.",
+    "FieldShowCondition": "disclosureAgreement=\"Yes\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "expertReportPermission",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Do you want to use an expert?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "expertReportSent",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "ExpertReportSent",
+    "ElementLabel": "Have you already sent expert reports or similar to other parties?",
+    "FieldShowCondition": "expertReportPermission=\"Yes\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "expertJoint",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Do you think the case is suitable for a single joint expert?",
+    "FieldShowCondition": "expertReportPermission=\"Yes\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "expertDetails",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Expert",
+    "ElementLabel": "Expert details",
+    "FieldShowCondition": "expertReportPermission=\"Yes\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "witnesses",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Are there witnesses who should attend a hearing?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "electronicDocuments",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Have you reached agreement, either using the Electronic Documents Questionnaire in Practice Direction 31B or otherwise, about the scope and extent of disclosure of electronic documents on each side?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "electronicDocumentsWhy",
+    "FieldType": "TextArea",
+    "ElementLabel": "Explain why not",
+    "FieldShowCondition": "electronicDocuments=\"No\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "electronicDocumentsWhat",
+    "FieldType": "TextArea",
+    "ElementLabel": "Enter your preferred directions for disclosure",
+    "FieldShowCondition": "electronicDocuments=\"Yes\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "witnessesDetails",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Witness",
+    "ElementLabel": "Witness details",
+    "FieldShowCondition": "witnesses=\"Yes\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "estimatedHearingDuration",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "HearingLength",
+    "ElementLabel": "How long do you estimate the hearing will take?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "estimatedHearingDurationHours",
+    "FieldType": "Number",
+    "ElementLabel": "How many hours?",
+    "FieldShowCondition": "estimatedHearingDuration=\"HOURS\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "estimatedHearingDurationDays",
+    "FieldType": "Number",
+    "ElementLabel": "How many days?",
+    "FieldShowCondition": "estimatedHearingDuration=\"DAYS\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "datesUnavailable",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Are there any days within the next 12 months when you, your client, an expert or a witness couldn't attend a hearing?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "datesUnavailableList",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "dateUnavailable",
+    "ElementLabel": "Unavailable date",
+    "FieldShowCondition": "datesUnavailable=\"Yes\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "draftDirectionsHeader",
+    "FieldType": "Label",
+    "ElementLabel": "## Upload draft directions",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "draftDirectionsIntro",
+    "FieldType": "Label",
+    "ElementLabel": "If you have these, upload them whether they're agreed or not.",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "draftDirections",
+    "FieldType": "CaseDocument",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "requestCourt",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Do you want to ask for the hearing to be held at a specific court? ",
+    "HintText": "If not, it'll be held at the claimant's preferred court.",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "requestCourtLink",
+    "FieldType": "Label",
+    "ElementLabel": "<a target=\"_blank\" href=\"https://courttribunalfinder.service.gov.uk/search/postcode?aol=Money+claims&amp;spoe=nearest\">Find a hearing centre</a> (opens in a new window)",
+    "FieldShowCondition": "requestCourt=\"Yes\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "requestCourtLocation",
+    "FieldType": "Text",
+    "ElementLabel": "Court name",
+    "FieldShowCondition": "requestCourt=\"Yes\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "requestCourtReason",
+    "FieldType": "TextArea",
+    "ElementLabel": "Briefly explain your reasons",
+    "FieldShowCondition": "requestCourt=\"Yes\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "support",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "SupportOptions",
+    "ElementLabel": "Select any support you, your client, and any experts or witnesses would require for a court hearing.",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "supportSignLanguage",
+    "FieldType": "Text",
+    "ElementLabel": "Enter the sign language you need",
+    "FieldShowCondition": "support CONTAINS \"SIGN_LANGUAGE\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "supportLanguage",
+    "FieldType": "Text",
+    "ElementLabel": "What language needs to be interpreted?",
+    "FieldShowCondition": "support CONTAINS \"LANGUAGE\"",
+    "HintText": "You may have to arrange and pay for interpreters except for Welsh. The court will tell you.",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "supportOther",
+    "FieldType": "TextArea",
+    "ElementLabel": "Tell us the other support that's needed - the court can't guarantee it, but it will consider physical or mental health impairments.",
+    "FieldShowCondition": "support CONTAINS \"OTHER\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "otherApplications",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Do you intend to make any applications in the future?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "otherApplicationsInfo",
+    "FieldType": "TextArea",
+    "ElementLabel": "What for?",
+    "FieldShowCondition": "otherApplications=\"Yes\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "otherInfo",
+    "FieldType": "TextArea",
+    "ElementLabel": "Provide any other information that the judge may need",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "signatureHeader",
+    "FieldType": "Label",
+    "ElementLabel": "## Signature",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "signatureName",
+    "FieldType": "Text",
+    "ElementLabel": "Full name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DQFastMulti",
+    "ListElementCode": "signatureRole",
+    "FieldType": "Text",
+    "ElementLabel": "Role",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "LitigationFriend",
+    "ListElementCode": "litigationFriendName",
+    "FieldType": "Text",
+    "ElementLabel": "Full name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "LitigationFriend",
+    "ListElementCode": "litigationAddressRequired",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is the claimant address and litigation friend address the same?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "LitigationFriend",
+    "ListElementCode": "litigationAddress",
+    "FieldType": "AddressUK",
+    "ElementLabel": "Litigation friend's address",
+    "FieldShowCondition": "litigationAddressRequired=\"No\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "LitigationFriend",
+    "ListElementCode": "litigationCertificates",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseDocument",
+    "ElementLabel": "Upload the certificate of suitability",
+    "SecurityClassification": "Public"
+  }
 ]
