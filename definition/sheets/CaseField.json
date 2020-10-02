@@ -201,7 +201,7 @@
     "LiveFrom": "02/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
     "ID": "sotJudgmentIntro",
-    "Label": "### Signed\r\n  \r\n\"I confirm to the court that the defendant hasn't filed a defence to my claim and the deadline to do so has passed.\r\n\r\nI request judgment to be entered against the defendant for an amount to be decided by the court, plus costs.\"",
+    "Label": "### Signed\r\n  \r\n\"I Confirm to the court that the defendant hasn't filed a defence to my claim and the deadline to do so has passed.\r\n\r\nI request judgment to be entered against the defendant for an amount to be decided by the court, plus costs.\"",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
