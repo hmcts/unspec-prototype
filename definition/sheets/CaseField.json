@@ -6,7 +6,7 @@
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
     "ID": "eligibilityQuestions",
-    "Label": "## Issue civil court proceedings \r\n\r\n### Who can use this service\r\n\r\nUse this service if you’re representing a claimant and:\r\n- issuing a claim for an unspecified (unfixed) amount of money\r\n- able to pay the full issue fee using fee account\r\n- serving the claim form yourself to a defendant who lives in the UK\r\n -serving a claim form in English\r\n- have an email and UK postal address \r\n\r\n### About the claimant \r\nThe claimant must\r\n- have a litigation friend if they are a child under 18 \r\n- have an address in England or Wales\r\n- not have a civil restraint, all or civil proceedings order against them \r\n\r\n### About the claim \r\nThe claim must not be against the crown or ordinarily follow the Part 8 procedure. \r\n",
+    "Label": "## Issue civil court proceedings \r\n\r\n### Who can use this service\r\n\r\nUse this service if you’re representing a claimant and:\r\n- issuing a claim for an unspecified (unfixed) amount of money\r\n- able to pay the full issue fee using Fee Account\r\n- serving the claim form yourself to a defendant who lives in the UK\r\n -serving a claim form in English\r\n- have an email and UK postal address \r\n\r\n### About the claimant \r\nThe claimant must\r\n- have a litigation friend if they are a child under 18 \r\n- have an address in England or Wales\r\n- not have a civil restraint, all or civil proceedings order against them \r\n\r\n### About the claim \r\nThe claim must not be against the crown or ordinarily follow the Part 8 procedure. \r\n",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -126,7 +126,7 @@
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceDestinationBusinessOther", "Label": "Destination type", "FieldType": "Text", "SecurityClassification": "Public"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceDate", "Label": "When did you serve the documents?", "FieldType": "Date", "SecurityClassification": "Public"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "serviceDateTime", "Label": "When did you serve the documents?", "FieldType": "DateTime", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "servicedTo", "Label": "On whom did you serve? ", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "ID": "servicedTo", "Label": "On whom DOO docsServedOthers you serve? ", "FieldType": "Text", "SecurityClassification": "Public"},
   {
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
