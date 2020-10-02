@@ -60,7 +60,7 @@
   {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ7", "ListElementCode": "estimatedHearingDuration", "FieldDisplayOrder": 1, "DisplayContext": "MANDATORY"},
   {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ7", "ListElementCode": "estimatedHearingDurationHours", "FieldDisplayOrder": 2, "DisplayContext": "MANDATORY"},
   {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ7", "ListElementCode": "estimatedHearingDurationDays", "FieldDisplayOrder": 3, "DisplayContext": "MANDATORY"},
-  {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ7", "ListElementCode": "datesUnavailable", "EventElementLabel": "You need to provide a date when you are unavailable", "FieldDisplayOrder": 4, "DisplayContext": "MANDATORY"},
+  {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ7", "ListElementCode": "datesUnavailable", "EventElementLabel": "Are there any dates when you are unavailable?", "FieldDisplayOrder": 4, "DisplayContext": "MANDATORY"},
   {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ7", "ListElementCode": "datesUnavailableList.name", "FieldDisplayOrder": 5, "DisplayContext": "MANDATORY"},
   {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ7", "ListElementCode": "datesUnavailableList.date", "FieldDisplayOrder": 6, "DisplayContext": "MANDATORY"},
   {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ8", "ListElementCode": "draftDirectionsHeader", "FieldDisplayOrder": 1, "DisplayContext": "READONLY"},
