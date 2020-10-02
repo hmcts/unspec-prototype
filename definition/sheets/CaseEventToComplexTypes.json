@@ -52,7 +52,7 @@
   {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ5", "ListElementCode": "expertJoint", "FieldDisplayOrder": 3, "DisplayContext": "MANDATORY"},
   {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ5", "ListElementCode": "expertDetails.expertName", "FieldDisplayOrder": 4, "DisplayContext": "OPTIONAL"},
   {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ5", "ListElementCode": "expertDetails.expertField", "FieldDisplayOrder": 5, "DisplayContext": "MANDATORY"},
-  {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ5", "ListElementCode": "expertDetails.expertReason", "EventElementLabel": "Explain why you need this expert?", "FieldDisplayOrder": 6, "DisplayContext": "MANDATORY"},
+  {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ5", "ListElementCode": "expertDetails.expertReason", "EventElementLabel": "Explain why you need this expert", "FieldDisplayOrder": 6, "DisplayContext": "MANDATORY"},
   {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ5", "ListElementCode": "expertDetails.expertCost", "FieldDisplayOrder": 7, "DisplayContext": "MANDATORY"},
   {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ6", "ListElementCode": "witnesses", "FieldDisplayOrder": 1, "DisplayContext": "MANDATORY"},
   {"ID": "DQFastMulti", "CaseEventID": "respond", "CaseFieldID": "defendantDQ6", "ListElementCode": "witnessesDetails.witnessName", "FieldDisplayOrder": 2, "DisplayContext": "MANDATORY"},
