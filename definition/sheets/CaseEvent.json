@@ -217,5 +217,20 @@
     "ShowEventNotes": "N",
     "CanSaveDraft": "N",
     "EndButtonLabel": "Save and continue"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "addDefendantLitigation",
+    "Name": "Add litigation friend",
+    "Description": "Add defendant litigation friend",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "confirmed;responded;acknowledged;extensionRequested;extensionResponded",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowSummary": "N",
+    "ShowEventNotes": "N",
+    "CanSaveDraft": "N",
+    "EndButtonLabel": "Save and continue"
   }
 ]

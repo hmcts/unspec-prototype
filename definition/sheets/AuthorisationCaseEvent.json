@@ -12,5 +12,6 @@
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseEventID": "processResponse", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseEventID": "processApplication", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseEventID": "withdrawClaim", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseEventID": "discontinueClaim", "UserRole": "caseworker-civil", "CRUD": "CRUD"}
+  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseEventID": "discontinueClaim", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
+  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseEventID": "addDefendantLitigation", "UserRole": "caseworker-civil", "CRUD": "CRUD"}
 ]
