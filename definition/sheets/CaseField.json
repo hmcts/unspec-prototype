@@ -1224,13 +1224,5 @@
     "Label": "Provide litigation friend details",
     "FieldType": "LitigationFriend",
     "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "03/12/2019",
-    "CaseTypeID": "PrototypeUnspecifiedClaims",
-    "ID": "isDefendantMinor",
-    "Label": "Is the defendant a child?",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
   }
 ]
