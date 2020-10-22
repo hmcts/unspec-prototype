@@ -104,7 +104,7 @@
   {"ID": "DQFastMulti", "CaseEventID": "viewResponse", "CaseFieldID": "claimantDQ5", "ListElementCode": "expertReportPermission", "FieldDisplayOrder": 1, "DisplayContext": "MANDATORY"},
   {"ID": "DQFastMulti", "CaseEventID": "viewResponse", "CaseFieldID": "claimantDQ5", "ListElementCode": "expertReportSent", "FieldDisplayOrder": 2, "DisplayContext": "MANDATORY"},
   {"ID": "DQFastMulti", "CaseEventID": "viewResponse", "CaseFieldID": "claimantDQ5", "ListElementCode": "expertJoint", "FieldDisplayOrder": 3, "DisplayContext": "MANDATORY"},
-  {"ID": "DQFastMulti", "CaseEventID": "viewResponse", "CaseFieldID": "claimantDQ5", "ListElementCode": "expertDetails.expertName", "FieldDisplayOrder": 4, "DisplayContext": "MANDATORY"},
+  {"ID": "DQFastMulti", "CaseEventID": "viewResponse", "CaseFieldID": "claimantDQ5", "ListElementCode": "expertDetails.expertName", "FieldDisplayOrder": 4, "DisplayContext": "OPTIONAL"},
   {"ID": "DQFastMulti", "CaseEventID": "viewResponse", "CaseFieldID": "claimantDQ5", "ListElementCode": "expertDetails.expertField", "FieldDisplayOrder": 5, "DisplayContext": "MANDATORY"},
   {"ID": "DQFastMulti", "CaseEventID": "viewResponse", "CaseFieldID": "claimantDQ5", "ListElementCode": "expertDetails.expertReason", "EventElementLabel": "Explain why you need this expert?", "FieldDisplayOrder": 6, "DisplayContext": "MANDATORY"},
   {"ID": "DQFastMulti", "CaseEventID": "viewResponse", "CaseFieldID": "claimantDQ5", "ListElementCode": "expertDetails.expertCost", "FieldDisplayOrder": 7, "DisplayContext": "MANDATORY"},
