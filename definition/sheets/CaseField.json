@@ -115,6 +115,15 @@
   {
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "responseIntention",
+    "Label": "The defendant intends to:",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "ResponseIndicationType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
     "ID": "claimantName",
     "Label": "Claimant name",
     "FieldType": "Label",
@@ -736,6 +745,14 @@
     "CaseTypeID": "PrototypeUnspecifiedClaims",
     "ID": "defendantDetails",
     "Label": "The claimant has provided the following name and address for your defendant.\r\n\r\n**Name:**\r\n${Respondents.partyName}\r\n\r\n**Address:**<br />\r\n${Respondents.partyDetail.primaryAddress.AddressLine1}<br />${Respondents.partyDetail.primaryAddress.AddressLine2}<br />${Respondents.partyDetail.primaryAddress.AddressLine3}<br />${Respondents.partyDetail.primaryAddress.PostTown}<br />${Respondents.partyDetail.primaryAddress.County}<br />${Respondents.partyDetail.primaryAddress.PostCode}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "ID": "confirmDefendantDetails",
+    "Label": "The claimant has provided the following name and address for your defendant.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },

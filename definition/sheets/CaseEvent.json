@@ -49,7 +49,7 @@
   {
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
-    "ID": "MoreTimeRequestedOnline",
+    "ID": "acknowledgeService",
     "Name": "Acknowledge service",
     "Description": "Acknowledge service",
     "DisplayOrder": 1,

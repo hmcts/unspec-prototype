@@ -2,7 +2,7 @@
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseEventID": "createClaim", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseEventID": "confirmService", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseEventID": "respond", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
-  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseEventID": "MoreTimeRequestedOnline", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
+  {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseEventID": "acknowledgeService", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseEventID": "requestExtension", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseEventID": "respondToExtension", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
   {"LiveFrom": "01/12/2019", "CaseTypeID": "PrototypeUnspecifiedClaims", "CaseEventID": "takeOffline", "UserRole": "caseworker-civil", "CRUD": "CRUD"},
