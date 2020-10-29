@@ -847,11 +847,23 @@
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
     "CaseEventID": "confirmService",
+    "CaseFieldID": "servicedTo",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "ToWhom",
+    "PageDisplayOrder": 7,
+    "PageShowCondition": "serviceMethod=\"LEAVING_AT_PERMITTED_ADDRESS\" OR serviceMethod=\"PERSONAL_SERVICE\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseEventID": "confirmService",
     "CaseFieldID": "serviceDate",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "When",
-    "PageDisplayOrder": 7,
+    "PageDisplayOrder": 8,
     "FieldShowCondition": "serviceMethod!=\"EMAIL\" AND serviceMethod!=\"FAX\" AND  serviceMethod!=\"LEAVING_AT_PERMITTED_ADDRESS\" AND serviceMethod!=\"PERSONAL_SERVICE\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -865,18 +877,6 @@
     "PageID": "When",
     "PageDisplayOrder": 8,
     "FieldShowCondition": "serviceMethod =\"EMAIL\" OR serviceMethod = \"FAX\" OR serviceMethod=\"LEAVING_AT_PERMITTED_ADDRESS\" OR serviceMethod=\"PERSONAL_SERVICE\"",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "LiveFrom": "01/12/2019",
-    "CaseTypeID": "PrototypeUnspecifiedClaims",
-    "CaseEventID": "confirmService",
-    "CaseFieldID": "servicedTo",
-    "PageFieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
-    "PageID": "ToWhom",
-    "PageDisplayOrder": 7,
-    "PageShowCondition": "serviceMethod=\"LEAVING_AT_PERMITTED_ADDRESS\" OR serviceMethod=\"PERSONAL_SERVICE\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
