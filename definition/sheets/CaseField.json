@@ -262,7 +262,7 @@
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
     "ID": "claimDetailsIntro",
-    "Label": "\r\nDon't include the full particulars of claim here  - you have the option to upload them on the next page.\r\n\r\nPlease use this space to provide additional details such as the date of accident if personal injury, the date of the alleged negligence if clinical negligence case , the date of the contract if breach of contract and any other supporting details.",
+    "Label": "\r\nDon't include the full particulars of claim here  - you have the option to upload them on the next page.\r\n\r\nPlease use this space to provide additional details such as the date of accident if personal injury, the date of the alleged negligence if clinical negligence case, the date of the contract if breach of contract and any other supporting details.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
