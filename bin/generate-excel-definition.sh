@@ -14,7 +14,8 @@ excludedFilenamePatterns="-e UserProfile.json"
 root_dir=$(realpath $(dirname ${0})/..)
 config_dir=${root_dir}/definition
 build_dir=${root_dir}/excel-definition
-import_definition_output_file=${build_dir}/ccd-unspec-prototype-$(date +"%d-%m-%y_%H-%M-%S").xlsx
+commit_hash=$(git rev-parse --short HEAD)
+import_definition_output_file=${build_dir}/unspec-prototype-$(date +"%d-%m-%y_%H-%M-%S")-${commit_hash}.xlsx
 
 mkdir -p ${build_dir}
 

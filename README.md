@@ -101,7 +101,9 @@ $ ./bin/generate-excel-defintion.sh
 
 This will generate a definition file in `excel-definition` directory in the following format:
 
-`ccd-unspec-prototype-day-month-year_hour-minute-seconds.xlsx`
+`unspec-prototype-day-month-year_hour-minute-seconds-commithash.xlsx`
+
+The commit hash will help identify which version is running on which environment.
 
 ## Upload definition file to environments
 
