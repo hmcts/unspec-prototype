@@ -111,9 +111,9 @@ The commit hash will help identify which version is running on which environment
 
 To upload definition file to AAT you will first need to connect to VPN.
 
-Follow the below [upload definition URL](http://ccd-admin-web.aat.platform.hmcts.net) and click `upload definition` link in top left.
+Follow the below [upload definition URL](http://ccd-admin-web.aat.platform.hmcts.net) and click `Import case definition` link in top left.
 
-To view the uploaded prototype definition go to the [aat environment](manage-case.aat.platform.hmcts.net) and select 
+To view the uploaded prototype definition go to the [aat environment](http://manage-case.aat.platform.hmcts.net) and select 
 - Jurisdiction: `Civil`
 - Case type: `Prototype Unspecified Claims`.
 
@@ -121,9 +121,9 @@ To view the uploaded prototype definition go to the [aat environment](manage-cas
 
 VPN not required for demo
 
-Follow the below [upload definition URL](http://ccd-admin-web.demo.platform.hmcts.net) and click `upload definition` link in top left.
+Follow the below [upload definition URL](http://ccd-admin-web.demo.platform.hmcts.net) and click `Import case definition` link in top left.
 
-To view the prototype definition go to the [demo environment](manage-case.demo.platform.hmcts.net/) and select 
+To view the prototype definition go to the [demo environment](http://manage-case.demo.platform.hmcts.net/) and select 
 - Jurisdiction: `Civil`
 - Case type: `Prototype Unspecified Claims`.
 
