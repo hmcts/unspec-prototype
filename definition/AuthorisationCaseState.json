@@ -1,0 +1,72 @@
+[
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseStateID": "created",
+    "UserRole": "caseworker-civil",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseStateID": "confirmed",
+    "UserRole": "caseworker-civil",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseStateID": "responded",
+    "UserRole": "caseworker-civil",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseStateID": "acknowledged",
+    "UserRole": "caseworker-civil",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseStateID": "extensionRequested",
+    "UserRole": "caseworker-civil",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseStateID": "extensionResponded",
+    "UserRole": "caseworker-civil",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseStateID": "offline",
+    "UserRole": "caseworker-civil",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseStateID": "proceeded",
+    "UserRole": "caseworker-civil",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseStateID": "settled",
+    "UserRole": "caseworker-civil",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/12/2019",
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseStateID": "caseClosed",
+    "UserRole": "caseworker-civil",
+    "CRUD": "CRUD"
+  }
+]

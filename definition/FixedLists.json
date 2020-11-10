@@ -1,0 +1,560 @@
+[
+  {
+    "ID": "PartyType",
+    "ListElementCode": "INDIVIDUAL",
+    "ListElement": "Individual",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "PartyType",
+    "ListElementCode": "COMPANY",
+    "ListElement": "Company",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "PartyType",
+    "ListElementCode": "ORGANISATION",
+    "ListElement": "Organisation",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "PartyType",
+    "ListElementCode": "SOLE_TRADER",
+    "ListElement": "Sole trader",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "ServiceOptions",
+    "ListElementCode": "DEFENDANT_ADDRESS",
+    "ListElement": "Use the defendant's address",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "ServiceOptions",
+    "ListElementCode": "OTHER_ADDRESS",
+    "ListElement": "Use another address",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "UnderOver1k",
+    "ListElementCode": "UNDER_1K",
+    "ListElement": "£1,000 or less",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "UnderOver1k",
+    "ListElementCode": "OVER_1K",
+    "ListElement": "More than £1,000",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "UnderOverNA",
+    "ListElementCode": "NA",
+    "ListElement": "I'm not claiming for other damages",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "UnderOverNA",
+    "ListElementCode": "UNDER_1K",
+    "ListElement": "£1,000 or less",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "UnderOverNA",
+    "ListElementCode": "OVER_1K",
+    "ListElement": "More than £1,000",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "DefenceType",
+    "ListElementCode": "DISPUTE",
+    "ListElement": "Dispute",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "DefenceType",
+    "ListElementCode": "ALREADY_PAID",
+    "ListElement": "Already paid",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "ResponseIndicationType",
+    "ListElementCode": "FULL_DEFENCE",
+    "ListElement": "Defend all of the claim",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "ResponseIndicationType",
+    "ListElementCode": "PART_DEFENCE",
+    "ListElement": "Defend part of the claim",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "ResponseIndicationType",
+    "ListElementCode": "CONTEST_JURISDICTION",
+    "ListElement": "Contest jurisdiction",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "ResponseType",
+    "ListElementCode": "FULL_DEFENCE",
+    "ListElement": "Defends all of the claim",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "ResponseType",
+    "ListElementCode": "FULL_ADMISSION",
+    "ListElement": "Admits all of the claim",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "ResponseType",
+    "ListElementCode": "PART_ADMISSION",
+    "ListElement": "Defends part of the claim",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "ResponseType",
+    "ListElementCode": "COUNTERCLAIM",
+    "ListElement": "Rejects all of the claim and wants to counterclaim",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "DocumentType",
+    "ListElementCode": "ORDER_DIRECTIONS",
+    "ListElement": "Directions order",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "DocumentType",
+    "ListElementCode": "ORDER_SANCTION",
+    "ListElement": "Sanction order",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "DocumentType",
+    "ListElementCode": "SEALED_CLAIM",
+    "ListElement": "Sealed Claim",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "DocumentType",
+    "ListElementCode": "CLAIM_ISSUE_RECEIPT",
+    "ListElement": "Claim Issue Receipt",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "DocumentType",
+    "ListElementCode": "DEFENDANT_RESPONSE_RECEIPT",
+    "ListElement": "Defendant Response Receipt",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "DocumentType",
+    "ListElementCode": "CCJ_REQUEST",
+    "ListElement": "County Court Judgment Request",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "DocumentType",
+    "ListElementCode": "SETTLEMENT_AGREEMENT",
+    "ListElement": "Settlement Agreement",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "DocumentType",
+    "ListElementCode": "REVIEW_ORDER",
+    "ListElement": "Review Order Request",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "DocumentType",
+    "ListElementCode": "DEFENDANT_PIN_LETTER",
+    "ListElement": "Defendant Pin Letter",
+    "DisplayOrder": 9
+  },
+  {
+    "ID": "DocumentType",
+    "ListElementCode": "CLAIMANT_DIRECTIONS_QUESTIONNAIRE",
+    "ListElement": "Claimant directions Questionnaire",
+    "DisplayOrder": 10
+  },
+  {
+    "ID": "DocumentsServed",
+    "ListElementCode": "CLAIM_FORM",
+    "ListElement": "Claim form",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "DocumentsServed",
+    "ListElementCode": "RESPONSE_PACK",
+    "ListElement": "Response pack",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "DocumentsServed",
+    "ListElementCode": "PARTICULARS_OF_CLAIM",
+    "ListElement": "Particulars of claim",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "DocumentsServed",
+    "ListElementCode": "MED_REPORTS",
+    "ListElement": "Medical reports",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "DocumentsServed",
+    "ListElementCode": "SCHEDULE_LOSS",
+    "ListElement": "Schedule of loss",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "DocumentsServed",
+    "ListElementCode": "CERT_SUITABILITY",
+    "ListElement": "Certificate of suitability",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "DocumentsServed",
+    "ListElementCode": "OTHER_DOCS",
+    "ListElement": "Other documents",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "ServiceMethods",
+    "ListElementCode": "POST",
+    "ListElement": "First class post",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "ServiceMethods",
+    "ListElementCode": "DX",
+    "ListElement": "Document Exchange",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "ServiceMethods",
+    "ListElementCode": "FAX",
+    "ListElement": "Fax",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "ServiceMethods",
+    "ListElementCode": "EMAIL",
+    "ListElement": "Email",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "ServiceMethods",
+    "ListElementCode": "LEAVING_AT_PERMITTED_ADDRESS",
+    "ListElement": "Leaving at permitted address",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "ServiceMethods",
+    "ListElementCode": "PERSONAL_SERVICE",
+    "ListElement": "Personal service",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "ServiceMethods",
+    "ListElementCode": "OTHER",
+    "ListElement": "Other",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "ServiceDestinationsPerson",
+    "ListElementCode": "RESIDENCE",
+    "ListElement": "Usual residence",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "ServiceDestinationsPerson",
+    "ListElementCode": "PLACE_OF_BUSINESS",
+    "ListElement": "Place of business",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "ServiceDestinationsPerson",
+    "ListElementCode": "OTHER",
+    "ListElement": "Other",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "ServiceDestinationsBusiness",
+    "ListElementCode": "REG_OFFICE",
+    "ListElement": "Registered office address",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "ServiceDestinationsBusiness",
+    "ListElementCode": "PLACE_OF_BUSINESS",
+    "ListElement": "Place of business",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "ServiceDestinationsBusiness",
+    "ListElementCode": "PRINCIPAL_PLACE",
+    "ListElement": "Principal place of business",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "ServiceDestinationsBusiness",
+    "ListElementCode": "LAST_KNOWN",
+    "ListElement": "Last known place of business",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "ServiceDestinationsBusiness",
+    "ListElementCode": "OTHER",
+    "ListElement": "Other",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "PbaNumber",
+    "ListElementCode": "FIRST",
+    "ListElement": "PBA1234567",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "PbaNumber",
+    "ListElementCode": "SECOND",
+    "ListElement": "PBA7654321",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "PbaNumber",
+    "ListElementCode": "OTHER",
+    "ListElement": "Other",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "Confirm",
+    "ListElementCode": "CONFIRM",
+    "ListElement": "I confirm I've explained to my client that they must try to settle, the available options, and the possibility of costs sanctions if they refuse.",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "HearingLength",
+    "ListElementCode": "HOURS",
+    "ListElement": "Less than a day",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "HearingLength",
+    "ListElementCode": "DAY",
+    "ListElement": "One day",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "HearingLength",
+    "ListElementCode": "DAYS",
+    "ListElement": "More than a day",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "ExpertReportSent",
+    "ListElementCode": "YES",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "ExpertReportSent",
+    "ListElementCode": "NO",
+    "ListElement": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "ExpertReportSent",
+    "ListElementCode": "NOT_YET",
+    "ListElement": "Not yet obtained",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "SupportOptions",
+    "ListElementCode": "DISABLED",
+    "ListElement": "Disabled access",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "SupportOptions",
+    "ListElementCode": "HEARING_LOOP",
+    "ListElement": "Hearing loop",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "SupportOptions",
+    "ListElementCode": "SIGN_LANGUAGE",
+    "ListElement": "Sign language interpreter",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "SupportOptions",
+    "ListElementCode": "LANGUAGE",
+    "ListElement": "Language interpreter",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "SupportOptions",
+    "ListElementCode": "OTHER",
+    "ListElement": "Other support",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "ResponseTypePaper",
+    "ListElementCode": "FULL_ADMISSION",
+    "ListElement": "Full admission",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "ResponseTypePaper",
+    "ListElementCode": "PART_ADMISSION",
+    "ListElement": "Part admission",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "ResponseTypePaper",
+    "ListElementCode": "COUNTERCLAIM",
+    "ListElement": "Defence and counterclaim",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "NotProceed",
+    "ListElementCode": "SETTLE",
+    "ListElement": "The claim is settled",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "NotProceed",
+    "ListElementCode": "WITHDRAW",
+    "ListElement": "I withdraw the claim",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "NotProceed",
+    "ListElementCode": "OTHER",
+    "ListElement": "Other",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "ApplicationFrom",
+    "ListElementCode": "SOL_CLAIMANT",
+    "ListElement": "Claimant's solicitor",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "ApplicationFrom",
+    "ListElementCode": "SOL_DEFENDANT",
+    "ListElement": "Defendant's solicitor",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "ApplicationFrom",
+    "ListElementCode": "CLAIMANT",
+    "ListElement": "Claimant",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "ApplicationFrom",
+    "ListElementCode": "DEFENDANT",
+    "ListElement": "Defendant",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "ClaimTypes",
+    "ListElementCode": "PERSONAL_INJURY",
+    "ListElement": "Personal Injury",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "ClaimTypes",
+    "ListElementCode": "CLINICAL_NEGLIGENCE",
+    "ListElement": "Clinical negligence",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "ClaimTypes",
+    "ListElementCode": "OTHER_PROFESSIONAL_NEGLIGENCE",
+    "ListElement": "Other professional negligence",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "ClaimTypes",
+    "ListElementCode": "BREACH_OF_CONTRACT",
+    "ListElement": "Breach of contract",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "ClaimTypes",
+    "ListElementCode": "CONSUMER",
+    "ListElement": "Consumer",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "ClaimTypes",
+    "ListElementCode": "CONSUMER_CREDIT",
+    "ListElement": "Consumer Credit",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "ClaimTypes",
+    "ListElementCode": "OTHER",
+    "ListElement": "Other",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "PersonalInjuryTypes",
+    "ListElementCode": "ROAD_ACCIDENT",
+    "ListElement": "Road accident",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "PersonalInjuryTypes",
+    "ListElementCode": "WORK_ACCIDENT",
+    "ListElement": "Work accident",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "PersonalInjuryTypes",
+    "ListElementCode": "PUBLIC_LIABILITY_ACCIDENT",
+    "ListElement": "Public liability accident",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "PersonalInjuryTypes",
+    "ListElementCode": "HOLIDAY_ILLNESS",
+    "ListElement": "Holiday illness",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "PersonalInjuryTypes",
+    "ListElementCode": "DISEASE_CLAIM",
+    "ListElement": "Disease claim",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "PersonalInjuryTypes",
+    "ListElementCode": "OTHER",
+    "ListElement": "Personal Injury - other",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "HearingCourtLocations",
+    "ListElementCode": "BIRKENHEAD",
+    "ListElement": "Birkenhead",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "HearingCourtLocations",
+    "ListElementCode": "LIVERPOOL",
+    "ListElement": "Liverpool",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "HearingCourtLocations",
+    "ListElementCode": "OTHER",
+    "ListElement": "Other",
+    "DisplayOrder": 6
+  }
+]

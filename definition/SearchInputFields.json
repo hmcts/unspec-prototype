@@ -1,0 +1,14 @@
+[
+  {
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseFieldID": "solicitorRef",
+    "Label": "Claimant's reference",
+    "DisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "PrototypeUnspecifiedClaims",
+    "CaseFieldID": "previousServiceCaseReference",
+    "Label": "Claim number",
+    "DisplayOrder": 2
+  }
+]

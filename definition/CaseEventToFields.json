@@ -1,4 +1,5 @@
-[{
+[
+  {
     "LiveFrom": "01/12/2019",
     "CaseTypeID": "PrototypeUnspecifiedClaims",
     "CaseEventID": "createClaim",
