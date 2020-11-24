@@ -556,5 +556,17 @@
     "ListElementCode": "OTHER",
     "ListElement": "Other",
     "DisplayOrder": 6
+  },
+  {
+    "ID": "UnavailableDateType",
+    "ListElementCode": "SINGLE",
+    "ListElement": "Single date",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "UnavailableDateType",
+    "ListElementCode": "RANGE",
+    "ListElement": "Range of dates",
+    "DisplayOrder": 2
   }
 ]

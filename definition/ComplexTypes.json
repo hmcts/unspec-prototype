@@ -551,10 +551,35 @@
   },
   {
     "ID": "dateUnavailable",
+    "ListElementCode": "type",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "UnavailableDateType",
+    "ElementLabel": "Add a single day or date range",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "dateUnavailable",
     "ListElementCode": "date",
     "FieldType": "Date",
     "ElementLabel": "Unavailable date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "type = \"SINGLE\""
+  },
+  {
+    "ID": "dateUnavailable",
+    "ListElementCode": "to",
+    "FieldType": "Date",
+    "ElementLabel": "To",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "type = \"RANGE\""
+  },
+  {
+    "ID": "dateUnavailable",
+    "ListElementCode": "from",
+    "FieldType": "Date",
+    "ElementLabel": "From",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "type = \"RANGE\""
   },
   {
     "ID": "DQFastMulti",

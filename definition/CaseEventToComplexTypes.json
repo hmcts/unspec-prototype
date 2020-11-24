@@ -624,7 +624,6 @@
     "CaseEventID": "respond",
     "CaseFieldID": "defendantDQ7",
     "ListElementCode": "datesUnavailable",
-    "EventElementLabel": "Are there any dates when you are unavailable?",
     "FieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY"
   },
@@ -640,8 +639,32 @@
     "ID": "DQFastMulti",
     "CaseEventID": "respond",
     "CaseFieldID": "defendantDQ7",
-    "ListElementCode": "datesUnavailableList.date",
+    "ListElementCode": "datesUnavailableList.type",
     "FieldDisplayOrder": 6,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "DQFastMulti",
+    "CaseEventID": "respond",
+    "CaseFieldID": "defendantDQ7",
+    "ListElementCode": "datesUnavailableList.date",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "DQFastMulti",
+    "CaseEventID": "respond",
+    "CaseFieldID": "defendantDQ7",
+    "ListElementCode": "datesUnavailableList.to",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "DQFastMulti",
+    "CaseEventID": "respond",
+    "CaseFieldID": "defendantDQ7",
+    "ListElementCode": "datesUnavailableList.from",
+    "FieldDisplayOrder": 9,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -989,8 +1012,32 @@
     "ID": "DQFastMulti",
     "CaseEventID": "viewResponse",
     "CaseFieldID": "claimantDQ7",
-    "ListElementCode": "datesUnavailableList.date",
+    "ListElementCode": "datesUnavailableList.type",
     "FieldDisplayOrder": 6,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "DQFastMulti",
+    "CaseEventID": "viewResponse",
+    "CaseFieldID": "claimantDQ7",
+    "ListElementCode": "datesUnavailableList.date",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "DQFastMulti",
+    "CaseEventID": "viewResponse",
+    "CaseFieldID": "claimantDQ7",
+    "ListElementCode": "datesUnavailableList.to",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "DQFastMulti",
+    "CaseEventID": "viewResponse",
+    "CaseFieldID": "claimantDQ7",
+    "ListElementCode": "datesUnavailableList.from",
+    "FieldDisplayOrder": 9,
     "DisplayContext": "MANDATORY"
   },
   {
