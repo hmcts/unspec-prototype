@@ -3,12 +3,25 @@
 ## Contents
 - [Prerequisites](#prerequisites)
 - [Make changes to JSON](#making-changes-to-json)
+    - [Adding a new field](#adding-a-new-field)
+    - [Show and hide conditions](#show-and-hide-conditions)
 - [Generate excel from JSON](#generate-excel-file)
 - [Upload definition file to environments](#upload-definition-file-to-environments)
 
 ## Prerequisites
-In order for the generation of the excel spreadsheet the following dependency must be installed.
+In order for the generation of the excel spreadsheet the following dependencies must be installed.
+- [Docker](https://www.docker.com/)
+
+Follow the above link or if on mac with brew
+```$xslt
+brew cask install docker
+```
 - [jq Json Processor](https://stedolan.github.io/jq)
+
+Follow the above link or if on mac with brew
+```$xslt
+brew install jq
+```
 
 ## Making changes to JSON
 
@@ -87,17 +100,45 @@ All the JSON files have been added to `definition` directory. Each file represen
   }
 ```
 
+### Show and hide conditions
+
+Fields can be shown and hidden using the `FieldShowCondition` column.
+
+Please refer to the [CCD walkthrough of show hide conditions](https://tools.hmcts.net/confluence/display/RCCD/Show+Conditions+and+how+they+work#ShowConditionsandhowtheywork-Contains) for more information.
+
+An example of a field show condition can be found below:
+
+```
+"FieldShowCondition": "reachedAgreement = \"No\"",
+```
+
+Note: when defining in json it is important to include `\"` before and after the show condition so that the definition process escapes these characters.
+In the definition file this will appear as `reachedAgreement = "No"`
+
+#### Case fields
+
+To hide fields within an event use `FieldShowCondition` in `CaseEventToFields.json` to define show hide conditions
+
+#### Complex Types
+
+To hide fields within a complex type use `FieldShowCondition` in `ComplexTypes.json` to define show hide conditions
+
+
 ### Further reading 
 
 The [CCD definition glossary](https://tools.hmcts.net/confluence/display/RCCD/CCD+Definition+Glossary+for+Setting+up+a+Service+in+CCD) has a wealth of information about what each field in the definition files / tabs represent.
 
 ## Generate Excel File
 
-To generate a xlsx file from the JSON files run the following command in the terminal:
+To run this file `Docker` must be up and running. To start this, click on the application and wait for it to be fully up.
+
+To generate a xlsx file from the JSON files run the following command from the project root (unspec-prototype) in the terminal:
 
 ```bash
-$ ./bin/generate-excel-defintion.sh 
+./bin/generate-excel-definition.sh 
 ```
+
+Use `cd` to navigate through your directories in terminal and `ls` to list all files in a directory.
 
 This will generate a definition file in `excel-definition` directory in the following format:
 
@@ -111,7 +152,7 @@ The commit hash will help identify which version is running on which environment
 
 To upload definition file to AAT you will first need to connect to VPN.
 
-Follow the below [upload definition URL](http://ccd-admin-web.aat.platform.hmcts.net) and click `Import case definition` link in top left.
+Follow the below [upload definition URL](https://ccd-admin-web.aat.platform.hmcts.net) and click `Import case definition` link in top left.
 
 To view the uploaded prototype definition go to the [aat environment](http://manage-case.aat.platform.hmcts.net) and select 
 - Jurisdiction: `Civil`
@@ -123,7 +164,7 @@ VPN not required for demo
 
 Follow the below [upload definition URL](http://ccd-admin-web.demo.platform.hmcts.net) and click `Import case definition` link in top left.
 
-To view the prototype definition go to the [demo environment](http://manage-case.demo.platform.hmcts.net/) and select 
+To view the prototype definition go to the [demo environment](https://manage-case.demo.platform.hmcts.net/) and select 
 - Jurisdiction: `Civil`
 - Case type: `Prototype Unspecified Claims`.
 
