@@ -5,6 +5,7 @@
 - [Make changes to JSON](#making-changes-to-json)
     - [Adding a new field](#adding-a-new-field)
     - [Show and hide conditions](#show-and-hide-conditions)
+    - [List](#fixed-lists)
 - [Generate excel from JSON](#generate-excel-file)
 - [Upload definition file to environments](#upload-definition-file-to-environments)
 
@@ -123,6 +124,28 @@ To hide fields within an event use `FieldShowCondition` in `CaseEventToFields.js
 
 To hide fields within a complex type use `FieldShowCondition` in `ComplexTypes.json` to define show hide conditions
 
+### Fixed Lists
+
+Fixed list type fields `"FieldType": "FixedList"` are populated using the `FieldTypeParameter` column in ccd definition, 
+which is defined in `FixedLists.json` using the `ID` field.
+ 
+ An example entry:
+```
+  {
+    "ID": "PartyType",
+    "ListElementCode": "INDIVIDUAL",
+    "ListElement": "Individual",
+    "DisplayOrder": 1
+  },
+```
+
+Where 
+- `ID` is the ID of the fixed list and what is used for `FieldTypeParameter`
+- `ListElementCode` the CCD reference to the specific element (used in show conditions)
+- `ListElement` the value the element will have on screen
+- `DisplayOrder` the order the elements in the list should be display
+
+`DisplayOrder` should always be set to avoid lists changing order.
 
 ### Further reading 
 
